@@ -17,14 +17,14 @@ from problem_bank.history import HistoryStore  # ✅ 추가
 def main():
     st.set_page_config(page_title="Problem Bank", layout="wide")
 
-    tabA, tabC = st.tabs(["문제은행", "Mount파일"])
+    tabA = st.tabs(["문제은행"])
     with tabA:
         st.write("매주 목요일마다 문제가 새로 업로드 될 예정입니다.")
 #    with tabB:
 #        render_generator_panel()
-    with tabC:
-        render_file_manager()
-        st.write("cloud에 mount된 파일 확인용")
+#    with tabC:
+#        render_file_manager()
+#        st.write("cloud에 mount된 파일 확인용")
 
     cfg = AppConfig()
     state = ensure_state(st)
