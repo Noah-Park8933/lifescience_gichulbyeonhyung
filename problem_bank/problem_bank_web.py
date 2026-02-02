@@ -19,6 +19,7 @@ def main():
 
     tabA, tabC = st.tabs(["문제은행", "mount파일"])
     with tabA:
+        st.write("매주 목요일마다 문제가 새로 업로드 될 예정입니다.")
 #    with tabB:
 #        render_generator_panel()
         
