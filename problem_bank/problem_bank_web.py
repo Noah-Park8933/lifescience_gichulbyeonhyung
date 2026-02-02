@@ -21,6 +21,7 @@ def main():
     with tabA:
 #    with tabB:
 #        render_generator_panel()
+        
     with tabC:
         render_file_manager()
         st.write("cloud에 mount된 파일 확인용")
