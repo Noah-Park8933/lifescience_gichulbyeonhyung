@@ -11,7 +11,7 @@ from problem_bank.docx_exporter import export_docx_bytes
 # from problem_bank.generator_ui import render_generator_panel
 from problem_bank.history import HistoryStore  # ✅ 추가
 
-# from file_manager import render_file_manager
+from file_manager import render_file_manager
 
 
 def main():
@@ -21,9 +21,9 @@ def main():
     with tabA:
 #    with tabB:
 #        render_generator_panel()
-#    with tabC:
-#        render_file_manager()
-#        st.write("cloud에 mount된 파일 확인용")
+    with tabC:
+        render_file_manager()
+        st.write("cloud에 mount된 파일 확인용")
 
     cfg = AppConfig()
     state = ensure_state(st)
