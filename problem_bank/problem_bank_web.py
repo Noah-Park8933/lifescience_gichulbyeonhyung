@@ -11,7 +11,7 @@ from problem_bank.docx_exporter import export_docx_bytes
 # from problem_bank.generator_ui import render_generator_panel
 from problem_bank.history import HistoryStore  # ✅ 추가
 
-from file_manager import render_file_manager
+# from file_manager import render_file_manager
 
 
 def main():
