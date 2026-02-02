@@ -17,7 +17,7 @@ from file_manager import render_file_manager
 def main():
     st.set_page_config(page_title="Problem Bank", layout="wide")
 
-    tabA = st.tabs(["문제은행"])
+    tabA, tabC = st.tabs(["문제은행", "mount파일"])
     with tabA:
 #    with tabB:
 #        render_generator_panel()
