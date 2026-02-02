@@ -10,7 +10,7 @@ import streamlit as st
 # 1) 생성기 import (여기만 네 환경에 맞게 수정하면 됨)
 # ============================================================
 # TODO — 실제 파일명 & 함수명으로 교체해야 함
-from matrix3_generator_PACK import make_pack as make_pack_matrix3
+#from matrix3_generator_PACK import make_pack as make_pack_matrix3
 # from division_generator_PACK_NOXINFO_randomX12_hiddenX_v4 import make_pack as make_pack_division
 # from DNA_integration_generator import make_pack as make_pack_dna
 # from PDED1_generator import make_pack as make_pack_pded1
@@ -21,22 +21,22 @@ from matrix4_generator_PACK import make_pack as make_pack_matrix4
 # ============================================================
 # 2) 생성기 목록 (여기에 원하는 생성기 추가)
 # ============================================================
-GENERATORS = [
-    {
-        "key": "MATRIX3",
-        "title": "🧬 Matrix3 문제 자동 생성",
-        "default_n": 30,
-        "min_n": 1,
-        "max_n": 200,
-        "run": lambda n: make_pack_matrix3(n=n),
+#GENERATORS = [
+#    {
+ #       "key": "MATRIX3",
+  #      "title": "🧬 Matrix3 문제 자동 생성",
+   #     "default_n": 30,
+    #    "min_n": 1,
+     #   "max_n": 200,
+      #  "run": lambda n: make_pack_matrix3(n=n),
     },
-    {
-        "key": "MATRIX4",
-        "title": "🧬 Matrix4 문제 자동 생성",
-        "default_n": 30,
-        "min_n": 1,
-        "max_n": 200,
-        "run": lambda n: make_pack_matrix4(n=n),
+    
+    #  3 "key": "MATRIX4",
+    #"title": "🧬 Matrix4 문제 자동 생성",
+     #   "default_n": 30,
+      #  "min_n": 1,
+       # "max_n": 200,
+        #"run": lambda n: make_pack_matrix4(n=n),
     },
 
     # 예시 — 필요하면 주석 해제 후 파일 연결
