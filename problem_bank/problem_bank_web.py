@@ -8,7 +8,7 @@ from problem_bank.ui_filters import filter_items
 from problem_bank.ui_sidebar import sidebar_actions
 from problem_bank.ui_main import render_list
 from problem_bank.docx_exporter import export_docx_bytes
-from problem_bank.generator_ui import render_generator_panel
+# from problem_bank.generator_ui import render_generator_panel
 from problem_bank.history import HistoryStore  # ✅ 추가
 
 from file_manager import render_file_manager
