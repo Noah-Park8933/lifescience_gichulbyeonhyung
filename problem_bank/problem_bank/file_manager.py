@@ -7,7 +7,7 @@ def render_file_manager():
     st.subheader("📁 Mount 파일 관리자")
 
     # mount 경로 자동 탐지
-    candidates = [Path("/mount/src/problem_bank/output_pack")]
+    candidates = [Path("/mount/src/problem_bank/problem_bank/output_pack")]
     mount_dir = next((p for p in candidates if p.exists()), candidates[0])
 
     st.write(f"관리 대상: `{mount_dir}`")
