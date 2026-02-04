@@ -1,7 +1,7 @@
 {
-  "pack_id": "f074f2431813450091215af08de82cec",
+  "pack_id": "142d14b5aa9c49fbaa86fd48ee5679ad",
   "pack_name": "JSJ_TEST_1_5_1_pack_20260203",
-  "created_at": 1770176890,
+  "created_at": 1770177039,
   "config": {
     "module": "JSJ_TEST_1_5_1",
     "difficulty": 3,
@@ -11,7 +11,7 @@
   "count": 30,
   "items": [
     {
-      "id": "JSJ_TEST_1_5_1_5b08d13375",
+      "id": "JSJ_TEST_1_5_1_9da928c10b",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -20,7 +20,7 @@
       "answer_text_md": "③",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=False, ㄷ=True.\n- 정답: ③.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓑ | 2 | 2 |\n| ㉡ | ? | ⓐ | 1 | 1 |\n| ㉢ | 2 | 1 | 2 | 1 |\n| ㉣ | 1 | ? | 1 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓑ | 2 | 2 |\n| ㉡ | ? | ⓐ | 1 | 1 |\n| ㉢ | 2 | 1 | 2 | 1 |\n| ㉣ | 1 | ? | 1 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_133db23b78",
+      "id": "JSJ_TEST_1_5_1_491424b5bc",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -92,7 +92,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=2.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 2 | 2 | ? |\n| ㉡ | 0 | 3 | 1 | ? |\n| ㉢ | 0 | ⓐ | ? | 0 |\n| ㉣ | 0 | ⓑ | 0 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 2 | 2 | ? |\n| ㉡ | 0 | 3 | 1 | ? |\n| ㉢ | 0 | ⓐ | ? | 0 |\n| ㉣ | 0 | ⓑ | 0 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_22d4ad27a0",
+      "id": "JSJ_TEST_1_5_1_3aa21c6938",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -161,7 +161,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=1.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | ⓐ | ? | 1 |\n| ㉡ | 0 | 0 | 2 | ? |\n| ㉢ | 1 | ⓑ | 1 | 0 |\n| ㉣ | 0 | 0 | ? | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | ⓐ | ? | 1 |\n| ㉡ | 0 | 0 | 2 | ? |\n| ㉢ | 1 | ⓑ | 1 | 0 |\n| ㉣ | 0 | 0 | ? | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -221,7 +221,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_8b2a522c42",
+      "id": "JSJ_TEST_1_5_1_7afe2a0754",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -230,7 +230,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 1 | 0 | 0 |\n| ㉡ | 0 | ⓑ | ? | 2 |\n| ㉢ | 1 | ⓐ | 0 | ? |\n| ㉣ | ? | 0 | ? | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 1 | 0 | 0 |\n| ㉡ | 0 | ⓑ | ? | 2 |\n| ㉢ | 1 | ⓐ | 0 | ? |\n| ㉣ | ? | 0 | ? | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -290,7 +290,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_0f3f3cabe2",
+      "id": "JSJ_TEST_1_5_1_285bfdd525",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -299,7 +299,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: X.\n- ⓐ=2, ⓑ=2.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓐ | 0 | ? |\n| ㉡ | ? | 4 | 0 | ? |\n| ㉢ | 0 | ⓑ | 0 | 1 |\n| ㉣ | 0 | 0 | ? | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓐ | 0 | ? |\n| ㉡ | ? | 4 | 0 | ? |\n| ㉢ | 0 | ⓑ | 0 | 1 |\n| ㉣ | 0 | 0 | ? | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -359,7 +359,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_b33f069e17",
+      "id": "JSJ_TEST_1_5_1_b64779c94d",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -368,7 +368,7 @@
       "answer_text_md": "③",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=2, ⓑ=2.\n- ㄱ=False, ㄴ=False, ㄷ=True.\n- 정답: ③.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | ⓑ | ? | ? |\n| ㉡ | ? | 1 | 1 | 0 |\n| ㉢ | 2 | ⓐ | 0 | ? |\n| ㉣ | 1 | 1 | 0 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | ⓑ | ? | ? |\n| ㉡ | ? | 1 | 1 | 0 |\n| ㉢ | 2 | ⓐ | 0 | ? |\n| ㉣ | 1 | 1 | 0 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -431,7 +431,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_3e225f64e9",
+      "id": "JSJ_TEST_1_5_1_1351b697d2",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -440,7 +440,7 @@
       "answer_text_md": "①",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→I.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=1, ⓑ=2.\n- ㄱ=True, ㄴ=False, ㄷ=False.\n- 정답: ①.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 2 | ? | ? |\n| ㉡ | ? | ⓑ | 2 | ? |\n| ㉢ | 0 | ⓐ | 1 | ? |\n| ㉣ | ? | 3 | 1 | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 2 | ? | ? |\n| ㉡ | ? | ⓑ | 2 | ? |\n| ㉢ | 0 | ⓐ | 1 | ? |\n| ㉣ | ? | 3 | 1 | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -503,7 +503,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_ddc9565aee",
+      "id": "JSJ_TEST_1_5_1_1618a6157b",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -512,7 +512,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | ? | 0 | ? |\n| ㉡ | 1 | ⓑ | 0 | 1 |\n| ㉢ | 1 | 0 | ? | 2 |\n| ㉣ | 0 | ⓐ | 1 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | ? | 0 | ? |\n| ㉡ | 1 | ⓑ | 0 | 1 |\n| ㉢ | 1 | 0 | ? | 2 |\n| ㉣ | 0 | ⓐ | 1 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -572,7 +572,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_41feabd840",
+      "id": "JSJ_TEST_1_5_1_dbea33f3fb",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -581,7 +581,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=2.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 2 | ? | 0 |\n| ㉡ | ? | ⓑ | 2 | 1 |\n| ㉢ | 0 | 0 | 2 | ? |\n| ㉣ | 0 | ⓐ | ? | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 2 | ? | 0 |\n| ㉡ | ? | ⓑ | 2 | 1 |\n| ㉢ | 0 | 0 | 2 | ? |\n| ㉣ | 0 | ⓐ | ? | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -641,7 +641,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_8bf8356c71",
+      "id": "JSJ_TEST_1_5_1_e72732a491",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -650,7 +650,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=2.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 1 | 2 | ? |\n| ㉡ | ? | ⓑ | 2 | 0 |\n| ㉢ | 1 | ? | 1 | ? |\n| ㉣ | 0 | ⓐ | 1 | 0 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 1 | 2 | ? |\n| ㉡ | ? | ⓑ | 2 | 0 |\n| ㉢ | 1 | ? | 1 | ? |\n| ㉣ | 0 | ⓐ | 1 | 0 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -710,7 +710,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_7ccb20a1d3",
+      "id": "JSJ_TEST_1_5_1_124d9e2178",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -719,7 +719,7 @@
       "answer_text_md": "③",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=False, ㄷ=True.\n- 정답: ③.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | 0 | 2 | 2 |\n| ㉡ | ? | ⓑ | 0 | ? |\n| ㉢ | 2 | ⓐ | 1 | 2 |\n| ㉣ | 1 | ? | 1 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | 0 | 2 | 2 |\n| ㉡ | ? | ⓑ | 0 | ? |\n| ㉢ | 2 | ⓐ | 1 | 2 |\n| ㉣ | 1 | ? | 1 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -782,7 +782,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_b95aa395ff",
+      "id": "JSJ_TEST_1_5_1_c3a6cf0bec",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -791,7 +791,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=2.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓑ | 0 | ? |\n| ㉡ | ? | 2 | ? | 1 |\n| ㉢ | 0 | 1 | 1 | 0 |\n| ㉣ | ? | ⓐ | ? | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓑ | 0 | ? |\n| ㉡ | ? | 2 | ? | 1 |\n| ㉢ | 0 | 1 | 1 | 0 |\n| ㉣ | ? | ⓐ | ? | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -851,7 +851,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_af9b9a2270",
+      "id": "JSJ_TEST_1_5_1_1d6144e1d9",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -860,7 +860,7 @@
       "answer_text_md": "④",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→I.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=2, ⓑ=2.\n- ㄱ=True, ㄴ=False, ㄷ=True.\n- 정답: ④.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 1 | 1 | ? |\n| ㉡ | ? | ⓑ | ? | 0 |\n| ㉢ | 2 | ⓐ | 2 | ? |\n| ㉣ | ? | 3 | 2 | 0 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 1 | 1 | ? |\n| ㉡ | ? | ⓑ | ? | 0 |\n| ㉢ | 2 | ⓐ | 2 | ? |\n| ㉣ | ? | 3 | 2 | 0 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -923,7 +923,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_b8e57bf0a8",
+      "id": "JSJ_TEST_1_5_1_6ee0441687",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -932,7 +932,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 1 | 0 | 1 |\n| ㉡ | 1 | ⓐ | ? | 0 |\n| ㉢ | 0 | 0 | 0 | 2 |\n| ㉣ | ? | ⓑ | ? | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 1 | 0 | 1 |\n| ㉡ | 1 | ⓐ | ? | 0 |\n| ㉢ | 0 | 0 | 0 | 2 |\n| ㉣ | ? | ⓑ | ? | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -992,7 +992,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_d01f2b377e",
+      "id": "JSJ_TEST_1_5_1_650bcececd",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1001,7 +1001,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→II.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=1.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓐ | 1 | ? |\n| ㉡ | 1 | ⓑ | ? | 0 |\n| ㉢ | ? | 2 | 1 | 0 |\n| ㉣ | 2 | ? | ? | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓐ | 1 | ? |\n| ㉡ | 1 | ⓑ | ? | 0 |\n| ㉢ | ? | 2 | 1 | 0 |\n| ㉣ | 2 | ? | ? | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1061,7 +1061,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_9e8038b695",
+      "id": "JSJ_TEST_1_5_1_534050592f",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1070,7 +1070,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 0 | 2 | ? |\n| ㉡ | ? | ⓑ | 1 | 1 |\n| ㉢ | 0 | ? | 2 | 2 |\n| ㉣ | 1 | ⓐ | 1 | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | 0 | 2 | ? |\n| ㉡ | ? | ⓑ | 1 | 1 |\n| ㉢ | 0 | ? | 2 | 2 |\n| ㉣ | 1 | ⓐ | 1 | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1130,7 +1130,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_ba7eff2b38",
+      "id": "JSJ_TEST_1_5_1_5544faa8e1",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1139,7 +1139,7 @@
       "answer_text_md": "①",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→I.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=0, ⓑ=2.\n- ㄱ=True, ㄴ=False, ㄷ=False.\n- 정답: ①.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ? | 0 | 2 |\n| ㉡ | 1 | ⓐ | 0 | 1 |\n| ㉢ | ? | ⓑ | 1 | 0 |\n| ㉣ | ? | 2 | ? | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ? | 0 | 2 |\n| ㉡ | 1 | ⓐ | 0 | 1 |\n| ㉢ | ? | ⓑ | 1 | 0 |\n| ㉣ | ? | 2 | ? | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1202,7 +1202,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_78d922ed81",
+      "id": "JSJ_TEST_1_5_1_1bd0276a7f",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1211,7 +1211,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓐ | 2 | 2 |\n| ㉡ | 1 | 0 | ? | 1 |\n| ㉢ | 0 | 0 | ? | ? |\n| ㉣ | 0 | ⓑ | 1 | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓐ | 2 | 2 |\n| ㉡ | 1 | 0 | ? | 1 |\n| ㉢ | 0 | 0 | ? | ? |\n| ㉣ | 0 | ⓑ | 1 | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1271,7 +1271,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_3aa21c33da",
+      "id": "JSJ_TEST_1_5_1_cfee539c41",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1280,7 +1280,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→II.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=2.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓐ | 0 | 0 |\n| ㉡ | 1 | ? | 1 | 0 |\n| ㉢ | 1 | 2 | 1 | 0 |\n| ㉣ | 2 | ⓑ | ? | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓐ | 0 | 0 |\n| ㉡ | 1 | ? | 1 | 0 |\n| ㉢ | 1 | 2 | 1 | 0 |\n| ㉣ | 2 | ⓑ | ? | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1340,7 +1340,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_3844d35157",
+      "id": "JSJ_TEST_1_5_1_173660aaf1",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1349,7 +1349,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 0 | ? | 2 |\n| ㉡ | 1 | ⓑ | 1 | ? |\n| ㉢ | 2 | 0 | 2 | 2 |\n| ㉣ | ? | ⓐ | 1 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 0 | ? | 2 |\n| ㉡ | 1 | ⓑ | 1 | ? |\n| ㉢ | 2 | 0 | 2 | 2 |\n| ㉣ | ? | ⓐ | 1 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1409,7 +1409,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_0ccea7bb13",
+      "id": "JSJ_TEST_1_5_1_d9174df88b",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1418,7 +1418,7 @@
       "answer_text_md": "④",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→I.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=0, ⓑ=0.\n- ㄱ=True, ㄴ=False, ㄷ=True.\n- 정답: ④.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | ? | ? | 1 |\n| ㉡ | 2 | ⓐ | 0 | 2 |\n| ㉢ | ? | ⓑ | 1 | 1 |\n| ㉣ | 2 | 0 | ? | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | ? | ? | 1 |\n| ㉡ | 2 | ⓐ | 0 | 2 |\n| ㉢ | ? | ⓑ | 1 | 1 |\n| ㉣ | 2 | 0 | ? | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1481,7 +1481,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_cfc4662ee5",
+      "id": "JSJ_TEST_1_5_1_a99c1246b0",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1490,7 +1490,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→II.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓐ | 1 | 0 |\n| ㉡ | 1 | ⓑ | ? | ? |\n| ㉢ | 1 | 1 | 1 | ? |\n| ㉣ | ? | 0 | 0 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓐ | 1 | 0 |\n| ㉡ | 1 | ⓑ | ? | ? |\n| ㉢ | 1 | 1 | 1 | ? |\n| ㉣ | ? | 0 | 0 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1550,7 +1550,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_a1fd2c62b9",
+      "id": "JSJ_TEST_1_5_1_a8ce3b60a9",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1559,7 +1559,7 @@
       "answer_text_md": "③",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→IV.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=2, ⓑ=2.\n- ㄱ=False, ㄴ=False, ㄷ=True.\n- 정답: ③.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | ⓑ | 2 | ? |\n| ㉡ | 1 | 3 | ? | 0 |\n| ㉢ | 1 | ? | 1 | 0 |\n| ㉣ | 0 | ⓐ | 1 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 2 | ⓑ | 2 | ? |\n| ㉡ | 1 | 3 | ? | 0 |\n| ㉢ | 1 | ? | 1 | 0 |\n| ㉣ | 0 | ⓐ | 1 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1622,7 +1622,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_b0285767a6",
+      "id": "JSJ_TEST_1_5_1_8acbd00d5a",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1631,7 +1631,7 @@
       "answer_text_md": "①",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→I.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=1, ⓑ=2.\n- ㄱ=True, ㄴ=False, ㄷ=False.\n- 정답: ①.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 2 | 2 | ? |\n| ㉡ | 0 | ⓑ | 1 | 0 |\n| ㉢ | ? | ⓐ | ? | 1 |\n| ㉣ | ? | 3 | 2 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 2 | 2 | ? |\n| ㉡ | 0 | ⓑ | 1 | 0 |\n| ㉢ | ? | ⓐ | ? | 1 |\n| ㉣ | ? | 3 | 2 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1694,7 +1694,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_e4d4dc9c2e",
+      "id": "JSJ_TEST_1_5_1_ce7b3deb96",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1703,7 +1703,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→II.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=1.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓑ | ? | 2 |\n| ㉡ | 0 | ⓐ | 1 | 1 |\n| ㉢ | 0 | 0 | 1 | ? |\n| ㉣ | ? | 0 | 2 | 2 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ⓑ | ? | 2 |\n| ㉡ | 0 | ⓐ | 1 | 1 |\n| ㉢ | 0 | 0 | 1 | ? |\n| ㉣ | ? | 0 | 2 | 2 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1763,7 +1763,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_cb25e6cb82",
+      "id": "JSJ_TEST_1_5_1_dc7e7c4df7",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1772,7 +1772,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=1.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓐ | 1 | 0 |\n| ㉡ | ? | ? | 0 | ? |\n| ㉢ | ? | 2 | 1 | 0 |\n| ㉣ | 1 | ⓑ | 0 | 0 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | ⓐ | 1 | 0 |\n| ㉡ | ? | ? | 0 | ? |\n| ㉢ | ? | 2 | 1 | 0 |\n| ㉣ | 1 | ⓑ | 0 | 0 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1832,7 +1832,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_ca29257e7c",
+      "id": "JSJ_TEST_1_5_1_66d9d52276",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1841,7 +1841,7 @@
       "answer_text_md": "③",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: 상염색체.\n- ⓐ=2, ⓑ=2.\n- ㄱ=False, ㄴ=False, ㄷ=True.\n- 정답: ③.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 3 | 0 | 1 |\n| ㉡ | 0 | ⓐ | ? | 2 |\n| ㉢ | ? | ⓑ | 0 | ? |\n| ㉣ | 0 | 1 | 0 | 1 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 0 | 3 | 0 | 1 |\n| ㉡ | 0 | ⓐ | ? | 2 |\n| ㉢ | ? | ⓑ | 0 | ? |\n| ㉣ | 0 | 1 | 0 | 1 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1904,7 +1904,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_404f43e40e",
+      "id": "JSJ_TEST_1_5_1_841de75f44",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1913,7 +1913,7 @@
       "answer_text_md": "②",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=1, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=False.\n- 정답: ②.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ? | 2 | 0 |\n| ㉡ | 0 | ⓑ | ? | ? |\n| ㉢ | ? | 1 | 2 | 1 |\n| ㉣ | 1 | ⓐ | ? | 0 |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | ? | ? | 2 | 0 |\n| ㉡ | 0 | ⓑ | ? | ? |\n| ㉢ | ? | 1 | 2 | 1 |\n| ㉣ | 1 | ⓐ | ? | 0 |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -1973,7 +1973,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_2904be6107",
+      "id": "JSJ_TEST_1_5_1_343dc90d7b",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -1982,7 +1982,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | ? | ? | 1 |\n| ㉡ | 0 | ⓐ | ? | 2 |\n| ㉢ | 1 | 0 | 1 | 2 |\n| ㉣ | ? | ⓑ | 0 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | ? | ? | 1 |\n| ㉡ | 0 | ⓐ | ? | 2 |\n| ㉢ | 1 | 0 | 1 | 2 |\n| ㉣ | ? | ⓑ | 0 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
@@ -2042,7 +2042,7 @@
       }
     },
     {
-      "id": "JSJ_TEST_1_5_1_f822288865",
+      "id": "JSJ_TEST_1_5_1_909fc5b01d",
       "module": "JSJ_TEST_1_5_1",
       "id_prefix": "JSJ_TEST_1_5_1_",
       "difficulty": 3,
@@ -2051,7 +2051,7 @@
       "answer_text_md": "⑤",
       "solution_md": "- SOLVER 유일해(해=1)로 확정.\n- ㉣→III.\n- (가) 유전자 위치: X.\n- ⓐ=0, ⓑ=0.\n- ㄱ=False, ㄴ=True, ㄷ=True.\n- 정답: ⑤.\n",
       "payload": {
-        "table_md": "| 세포 | A | a\\+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 0 | ? | ? |\n| ㉡ | 2 | 0 | 2 | 2 |\n| ㉢ | 0 | ⓐ | 1 | ? |\n| ㉣ | 1 | ⓑ | 1 | ? |",
+        "table_md": "| 세포 | A | a+D | B | d |\n|------|---|------|---|---|\n| ㉠ | 1 | 0 | ? | ? |\n| ㉡ | 2 | 0 | 2 | 2 |\n| ㉢ | 0 | ⓐ | 1 | ? |\n| ㉣ | 1 | ⓑ | 1 | ? |",
         "diagram_image": "jsj_diagram.png",
         "observed_table": {
           "㉠": {
