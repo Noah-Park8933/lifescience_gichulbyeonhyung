@@ -1,0 +1,3899 @@
+{
+  "pack_id": "5ce540593c1191a826ea00c00ba045d0",
+  "pack_name": "SNTG_26025_0076__pack_20260210",
+  "created_at": 1770821409,
+  "config": {
+    "module": "SNTG_26025_0076_",
+    "difficulty": 2,
+    "n": 30,
+    "base_seed": 20260210,
+    "lemma_file": "SNTG_LEMMA_1.png",
+    "mode": "constructive_final_unique100_fast",
+    "progress_every": 1,
+    "ranges": {
+      "r1_r2": "2..12, gcd=1",
+      "d1": "0..8",
+      "d2": "targeted: (<I2) or (>=I2 up to +8)",
+      "unique": "I1_max forced to I1=r2"
+    }
+  },
+  "count": 30,
+  "items": [
+    {
+      "id": "SNTG_26025_0076_7fb932d648",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 2 | 3 |\n| t₂ | 3 | 1 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② ㄷ\n③ ㄱ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "2",
+      "solution_md": "- target(ans_no)=2, mask=(False, False, True)\n- 유일해(보장): I1_max=I1=3로 제한\n- A=6, I1=3, I2=2, H1=6, H2=3\n- r1=2, d1=3, r2=3, d2=1\n- X1=12, X2=10, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            3
+          ],
+          [
+            "t2",
+            3,
+            1
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            3
+          ],
+          [
+            "t2",
+            3,
+            1
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              2,
+              3
+            ],
+            [
+              "t2",
+              3,
+              1
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 ㄷ",
+          "3 ㄱ",
+          "4 ㄱ, ㄷ",
+          "5 ㄱ, ㄴ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② ㄷ",
+          "③ ㄱ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄱ, ㄴ"
+        ],
+        "choices_md": "① ㄴ\n② ㄷ\n③ ㄱ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ",
+        "answer_index": 2,
+        "answer_no": 2,
+        "answer": "2",
+        "params": {
+          "r1": 2,
+          "r2": 3,
+          "d1": 3,
+          "d2": 1
+        },
+        "sol": {
+          "A": 6,
+          "I1": 3,
+          "I2": 2,
+          "H1": 6,
+          "H2": 3
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 12,
+          "X2": 10,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_c3f238ddb2",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 11 | 4 |\n| t₂ | 9 | 0 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄷ\n② 없음\n③ ㄴ, ㄷ\n④ ㄱ, ㄷ\n⑤ ㄴ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "4",
+      "solution_md": "- target(ans_no)=4, mask=(True, False, True)\n- 유일해(보장): I1_max=I1=9로 제한\n- A=99, I1=9, I2=11, H1=13, H2=11\n- r1=11, d1=4, r2=9, d2=0\n- X1=117, X2=121, Xd=4\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            4
+          ],
+          [
+            "t2",
+            9,
+            0
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            4
+          ],
+          [
+            "t2",
+            9,
+            0
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              11,
+              4
+            ],
+            [
+              "t2",
+              9,
+              0
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄷ",
+          "2 없음",
+          "3 ㄴ, ㄷ",
+          "4 ㄱ, ㄷ",
+          "5 ㄴ"
+        ],
+        "choice_lines": [
+          "① ㄷ",
+          "② 없음",
+          "③ ㄴ, ㄷ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄴ"
+        ],
+        "choices_md": "① ㄷ\n② 없음\n③ ㄴ, ㄷ\n④ ㄱ, ㄷ\n⑤ ㄴ",
+        "answer_index": 4,
+        "answer_no": 4,
+        "answer": "4",
+        "params": {
+          "r1": 11,
+          "r2": 9,
+          "d1": 4,
+          "d2": 0
+        },
+        "sol": {
+          "A": 99,
+          "I1": 9,
+          "I2": 11,
+          "H1": 13,
+          "H2": 11
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 117,
+          "X2": 121,
+          "Xd": 4
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_f531a3f4d4",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 7 |\n| t₂ | 3 | 4 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ, ㄷ\n② 없음\n③ ㄱ, ㄴ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "4",
+      "solution_md": "- target(ans_no)=4, mask=(True, False, True)\n- 유일해(보장): I1_max=I1=3로 제한\n- A=15, I1=3, I2=5, H1=10, H2=9\n- r1=5, d1=7, r2=3, d2=4\n- X1=21, X2=25, Xd=4\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            7
+          ],
+          [
+            "t2",
+            3,
+            4
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            7
+          ],
+          [
+            "t2",
+            3,
+            4
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              7
+            ],
+            [
+              "t2",
+              3,
+              4
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ, ㄷ",
+          "2 없음",
+          "3 ㄱ, ㄴ",
+          "4 ㄱ, ㄷ",
+          "5 ㄱ, ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄴ, ㄷ",
+          "② 없음",
+          "③ ㄱ, ㄴ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄱ, ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄴ, ㄷ\n② 없음\n③ ㄱ, ㄴ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+        "answer_index": 4,
+        "answer_no": 4,
+        "answer": "4",
+        "params": {
+          "r1": 5,
+          "r2": 3,
+          "d1": 7,
+          "d2": 4
+        },
+        "sol": {
+          "A": 15,
+          "I1": 3,
+          "I2": 5,
+          "H1": 10,
+          "H2": 9
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 21,
+          "X2": 25,
+          "Xd": 4
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_d4c14371ce",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 3 | 6 |\n| t₂ | 2 | 4 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ ㄴ, ㄷ\n④ ㄴ\n⑤ ㄱ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "1",
+      "solution_md": "- target(ans_no)=1, mask=(True, False, False)\n- 유일해(보장): I1_max=I1=2로 제한\n- A=6, I1=2, I2=3, H1=8, H2=7\n- r1=3, d1=6, r2=2, d2=4\n- X1=10, X2=12, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            3,
+            6
+          ],
+          [
+            "t2",
+            2,
+            4
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            3,
+            6
+          ],
+          [
+            "t2",
+            2,
+            4
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              3,
+              6
+            ],
+            [
+              "t2",
+              2,
+              4
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄱ, ㄴ, ㄷ",
+          "3 ㄴ, ㄷ",
+          "4 ㄴ",
+          "5 ㄱ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄱ, ㄴ, ㄷ",
+          "③ ㄴ, ㄷ",
+          "④ ㄴ",
+          "⑤ ㄱ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ ㄴ, ㄷ\n④ ㄴ\n⑤ ㄱ, ㄷ",
+        "answer_index": 1,
+        "answer_no": 1,
+        "answer": "1",
+        "params": {
+          "r1": 3,
+          "r2": 2,
+          "d1": 6,
+          "d2": 4
+        },
+        "sol": {
+          "A": 6,
+          "I1": 2,
+          "I2": 3,
+          "H1": 8,
+          "H2": 7
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 10,
+          "X2": 12,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_2c14fae61e",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 8 | 7 |\n| t₂ | 7 | 6 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ, ㄷ\n② ㄱ, ㄴ\n③ ㄱ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "4",
+      "solution_md": "- target(ans_no)=4, mask=(True, False, True)\n- 유일해(보장): I1_max=I1=7로 제한\n- A=56, I1=7, I2=8, H1=14, H2=14\n- r1=8, d1=7, r2=7, d2=6\n- X1=70, X2=72, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            8,
+            7
+          ],
+          [
+            "t2",
+            7,
+            6
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            8,
+            7
+          ],
+          [
+            "t2",
+            7,
+            6
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              8,
+              7
+            ],
+            [
+              "t2",
+              7,
+              6
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ, ㄷ",
+          "2 ㄱ, ㄴ",
+          "3 ㄱ",
+          "4 ㄱ, ㄷ",
+          "5 ㄱ, ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄴ, ㄷ",
+          "② ㄱ, ㄴ",
+          "③ ㄱ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄱ, ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄴ, ㄷ\n② ㄱ, ㄴ\n③ ㄱ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+        "answer_index": 4,
+        "answer_no": 4,
+        "answer": "4",
+        "params": {
+          "r1": 8,
+          "r2": 7,
+          "d1": 7,
+          "d2": 6
+        },
+        "sol": {
+          "A": 56,
+          "I1": 7,
+          "I2": 8,
+          "H1": 14,
+          "H2": 14
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 70,
+          "X2": 72,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_f3460f29ed",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 2 | 5 |\n| t₂ | 3 | 0 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "2",
+      "solution_md": "- target(ans_no)=2, mask=(False, False, True)\n- 유일해(보장): I1_max=I1=3로 제한\n- A=6, I1=3, I2=2, H1=8, H2=2\n- r1=2, d1=5, r2=3, d2=0\n- X1=12, X2=10, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            5
+          ],
+          [
+            "t2",
+            3,
+            0
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            5
+          ],
+          [
+            "t2",
+            3,
+            0
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              2,
+              5
+            ],
+            [
+              "t2",
+              3,
+              0
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 ㄷ",
+          "3 ㄱ, ㄴ",
+          "4 ㄴ, ㄷ",
+          "5 ㄱ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② ㄷ",
+          "③ ㄱ, ㄴ",
+          "④ ㄴ, ㄷ",
+          "⑤ ㄱ, ㄷ"
+        ],
+        "choices_md": "① ㄴ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄷ",
+        "answer_index": 2,
+        "answer_no": 2,
+        "answer": "2",
+        "params": {
+          "r1": 2,
+          "r2": 3,
+          "d1": 5,
+          "d2": 0
+        },
+        "sol": {
+          "A": 6,
+          "I1": 3,
+          "I2": 2,
+          "H1": 8,
+          "H2": 2
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 12,
+          "X2": 10,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_82d9f7c3ec",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 9 | 4 |\n| t₂ | 8 | 9 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄱ, ㄷ\n③ ㄱ, ㄴ\n④ ㄱ, ㄴ, ㄷ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "3",
+      "solution_md": "- target(ans_no)=3, mask=(True, True, False)\n- 유일해(보장): I1_max=I1=8로 제한\n- A=72, I1=8, I2=9, H1=12, H2=18\n- r1=9, d1=4, r2=8, d2=9\n- X1=88, X2=90, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            9,
+            4
+          ],
+          [
+            "t2",
+            8,
+            9
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            9,
+            4
+          ],
+          [
+            "t2",
+            8,
+            9
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              9,
+              4
+            ],
+            [
+              "t2",
+              8,
+              9
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄱ, ㄷ",
+          "3 ㄱ, ㄴ",
+          "4 ㄱ, ㄴ, ㄷ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄱ, ㄷ",
+          "③ ㄱ, ㄴ",
+          "④ ㄱ, ㄴ, ㄷ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄱ, ㄷ\n③ ㄱ, ㄴ\n④ ㄱ, ㄴ, ㄷ\n⑤ ㄴ, ㄷ",
+        "answer_index": 3,
+        "answer_no": 3,
+        "answer": "3",
+        "params": {
+          "r1": 9,
+          "r2": 8,
+          "d1": 4,
+          "d2": 9
+        },
+        "sol": {
+          "A": 72,
+          "I1": 8,
+          "I2": 9,
+          "H1": 12,
+          "H2": 18
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": true,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 88,
+          "X2": 90,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_37a48bf591",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 2 | 8 |\n| t₂ | 5 | 1 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② ㄷ\n③ ㄱ, ㄴ\n④ 없음\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "2",
+      "solution_md": "- target(ans_no)=2, mask=(False, False, True)\n- 유일해(보장): I1_max=I1=5로 제한\n- A=10, I1=5, I2=2, H1=13, H2=3\n- r1=2, d1=8, r2=5, d2=1\n- X1=20, X2=14, Xd=-6\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            8
+          ],
+          [
+            "t2",
+            5,
+            1
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            8
+          ],
+          [
+            "t2",
+            5,
+            1
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              2,
+              8
+            ],
+            [
+              "t2",
+              5,
+              1
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 ㄷ",
+          "3 ㄱ, ㄴ",
+          "4 없음",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② ㄷ",
+          "③ ㄱ, ㄴ",
+          "④ 없음",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄴ\n② ㄷ\n③ ㄱ, ㄴ\n④ 없음\n⑤ ㄴ, ㄷ",
+        "answer_index": 2,
+        "answer_no": 2,
+        "answer": "2",
+        "params": {
+          "r1": 2,
+          "r2": 5,
+          "d1": 8,
+          "d2": 1
+        },
+        "sol": {
+          "A": 10,
+          "I1": 5,
+          "I2": 2,
+          "H1": 13,
+          "H2": 3
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 20,
+          "X2": 14,
+          "Xd": -6
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_b07ef15984",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 10 | 6 |\n| t₂ | 7 | 3 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ, ㄴ\n② ㄱ\n③ ㄷ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "4",
+      "solution_md": "- target(ans_no)=4, mask=(True, False, True)\n- 유일해(보장): I1_max=I1=7로 제한\n- A=70, I1=7, I2=10, H1=13, H2=13\n- r1=10, d1=6, r2=7, d2=3\n- X1=84, X2=90, Xd=6\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            10,
+            6
+          ],
+          [
+            "t2",
+            7,
+            3
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            10,
+            6
+          ],
+          [
+            "t2",
+            7,
+            3
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              10,
+              6
+            ],
+            [
+              "t2",
+              7,
+              3
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ, ㄴ",
+          "2 ㄱ",
+          "3 ㄷ",
+          "4 ㄱ, ㄷ",
+          "5 ㄱ, ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ, ㄴ",
+          "② ㄱ",
+          "③ ㄷ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄱ, ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ, ㄴ\n② ㄱ\n③ ㄷ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+        "answer_index": 4,
+        "answer_no": 4,
+        "answer": "4",
+        "params": {
+          "r1": 10,
+          "r2": 7,
+          "d1": 6,
+          "d2": 3
+        },
+        "sol": {
+          "A": 70,
+          "I1": 7,
+          "I2": 10,
+          "H1": 13,
+          "H2": 13
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 84,
+          "X2": 90,
+          "Xd": 6
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_7370fab7e0",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 4 | 5 |\n| t₂ | 3 | 4 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄴ\n③ ㄱ, ㄴ\n④ 없음\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "1",
+      "solution_md": "- target(ans_no)=1, mask=(True, False, False)\n- 유일해(보장): I1_max=I1=3로 제한\n- A=12, I1=3, I2=4, H1=8, H2=8\n- r1=4, d1=5, r2=3, d2=4\n- X1=18, X2=20, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            4,
+            5
+          ],
+          [
+            "t2",
+            3,
+            4
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            4,
+            5
+          ],
+          [
+            "t2",
+            3,
+            4
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              4,
+              5
+            ],
+            [
+              "t2",
+              3,
+              4
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄴ",
+          "3 ㄱ, ㄴ",
+          "4 없음",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄴ",
+          "③ ㄱ, ㄴ",
+          "④ 없음",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄴ\n③ ㄱ, ㄴ\n④ 없음\n⑤ ㄴ, ㄷ",
+        "answer_index": 1,
+        "answer_no": 1,
+        "answer": "1",
+        "params": {
+          "r1": 4,
+          "r2": 3,
+          "d1": 5,
+          "d2": 4
+        },
+        "sol": {
+          "A": 12,
+          "I1": 3,
+          "I2": 4,
+          "H1": 8,
+          "H2": 8
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 18,
+          "X2": 20,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_bcc1c7bcdc",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 3 | 8 |\n| t₂ | 4 | 2 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② ㄷ\n③ ㄱ\n④ 없음\n⑤ ㄱ, ㄴ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "2",
+      "solution_md": "- target(ans_no)=2, mask=(False, False, True)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=12, I1=4, I2=3, H1=12, H2=5\n- r1=3, d1=8, r2=4, d2=2\n- X1=20, X2=18, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            3,
+            8
+          ],
+          [
+            "t2",
+            4,
+            2
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            3,
+            8
+          ],
+          [
+            "t2",
+            4,
+            2
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              3,
+              8
+            ],
+            [
+              "t2",
+              4,
+              2
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 ㄷ",
+          "3 ㄱ",
+          "4 없음",
+          "5 ㄱ, ㄴ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② ㄷ",
+          "③ ㄱ",
+          "④ 없음",
+          "⑤ ㄱ, ㄴ"
+        ],
+        "choices_md": "① ㄴ\n② ㄷ\n③ ㄱ\n④ 없음\n⑤ ㄱ, ㄴ",
+        "answer_index": 2,
+        "answer_no": 2,
+        "answer": "2",
+        "params": {
+          "r1": 3,
+          "r2": 4,
+          "d1": 8,
+          "d2": 2
+        },
+        "sol": {
+          "A": 12,
+          "I1": 4,
+          "I2": 3,
+          "H1": 12,
+          "H2": 5
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 20,
+          "X2": 18,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_1b0c905b05",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 7 | 5 |\n| t₂ | 4 | 15 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄷ\n② 없음\n③ ㄱ, ㄴ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "3",
+      "solution_md": "- target(ans_no)=3, mask=(True, True, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=28, I1=4, I2=7, H1=9, H2=22\n- r1=7, d1=5, r2=4, d2=15\n- X1=36, X2=42, Xd=6\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            7,
+            5
+          ],
+          [
+            "t2",
+            4,
+            15
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            7,
+            5
+          ],
+          [
+            "t2",
+            4,
+            15
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              7,
+              5
+            ],
+            [
+              "t2",
+              4,
+              15
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄷ",
+          "2 없음",
+          "3 ㄱ, ㄴ",
+          "4 ㄱ, ㄷ",
+          "5 ㄱ, ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄷ",
+          "② 없음",
+          "③ ㄱ, ㄴ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄱ, ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄷ\n② 없음\n③ ㄱ, ㄴ\n④ ㄱ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+        "answer_index": 3,
+        "answer_no": 3,
+        "answer": "3",
+        "params": {
+          "r1": 7,
+          "r2": 4,
+          "d1": 5,
+          "d2": 15
+        },
+        "sol": {
+          "A": 28,
+          "I1": 4,
+          "I2": 7,
+          "H1": 9,
+          "H2": 22
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": true,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 36,
+          "X2": 42,
+          "Xd": 6
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_4ddbac7d36",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 7 | 5 |\n| t₂ | 4 | 11 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② ㄱ, ㄴ, ㄷ\n③ ㄱ, ㄴ\n④ 없음\n⑤ ㄱ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "3",
+      "solution_md": "- target(ans_no)=3, mask=(True, True, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=28, I1=4, I2=7, H1=9, H2=18\n- r1=7, d1=5, r2=4, d2=11\n- X1=36, X2=42, Xd=6\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            7,
+            5
+          ],
+          [
+            "t2",
+            4,
+            11
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            7,
+            5
+          ],
+          [
+            "t2",
+            4,
+            11
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              7,
+              5
+            ],
+            [
+              "t2",
+              4,
+              11
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 ㄱ, ㄴ, ㄷ",
+          "3 ㄱ, ㄴ",
+          "4 없음",
+          "5 ㄱ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② ㄱ, ㄴ, ㄷ",
+          "③ ㄱ, ㄴ",
+          "④ 없음",
+          "⑤ ㄱ"
+        ],
+        "choices_md": "① ㄴ\n② ㄱ, ㄴ, ㄷ\n③ ㄱ, ㄴ\n④ 없음\n⑤ ㄱ",
+        "answer_index": 3,
+        "answer_no": 3,
+        "answer": "3",
+        "params": {
+          "r1": 7,
+          "r2": 4,
+          "d1": 5,
+          "d2": 11
+        },
+        "sol": {
+          "A": 28,
+          "I1": 4,
+          "I2": 7,
+          "H1": 9,
+          "H2": 18
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": true,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 36,
+          "X2": 42,
+          "Xd": 6
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_cf97d61f1b",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 8 | 3 |\n| t₂ | 7 | 1 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ, ㄴ\n② ㄷ\n③ ㄱ\n④ ㄱ, ㄷ\n⑤ 없음",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "4",
+      "solution_md": "- target(ans_no)=4, mask=(True, False, True)\n- 유일해(보장): I1_max=I1=7로 제한\n- A=56, I1=7, I2=8, H1=10, H2=9\n- r1=8, d1=3, r2=7, d2=1\n- X1=70, X2=72, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            8,
+            3
+          ],
+          [
+            "t2",
+            7,
+            1
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            8,
+            3
+          ],
+          [
+            "t2",
+            7,
+            1
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              8,
+              3
+            ],
+            [
+              "t2",
+              7,
+              1
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ, ㄴ",
+          "2 ㄷ",
+          "3 ㄱ",
+          "4 ㄱ, ㄷ",
+          "5 없음"
+        ],
+        "choice_lines": [
+          "① ㄱ, ㄴ",
+          "② ㄷ",
+          "③ ㄱ",
+          "④ ㄱ, ㄷ",
+          "⑤ 없음"
+        ],
+        "choices_md": "① ㄱ, ㄴ\n② ㄷ\n③ ㄱ\n④ ㄱ, ㄷ\n⑤ 없음",
+        "answer_index": 4,
+        "answer_no": 4,
+        "answer": "4",
+        "params": {
+          "r1": 8,
+          "r2": 7,
+          "d1": 3,
+          "d2": 1
+        },
+        "sol": {
+          "A": 56,
+          "I1": 7,
+          "I2": 8,
+          "H1": 10,
+          "H2": 9
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 70,
+          "X2": 72,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_aea9e02a5e",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 1 |\n| t₂ | 6 | 3 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ ㄱ, ㄷ\n④ ㄴ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "5",
+      "solution_md": "- target(ans_no)=5, mask=(False, True, True)\n- 유일해(보장): I1_max=I1=6로 제한\n- A=30, I1=6, I2=5, H1=7, H2=8\n- r1=5, d1=1, r2=6, d2=3\n- X1=42, X2=40, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            1
+          ],
+          [
+            "t2",
+            6,
+            3
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            1
+          ],
+          [
+            "t2",
+            6,
+            3
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              1
+            ],
+            [
+              "t2",
+              6,
+              3
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄱ, ㄴ, ㄷ",
+          "3 ㄱ, ㄷ",
+          "4 ㄴ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄱ, ㄴ, ㄷ",
+          "③ ㄱ, ㄷ",
+          "④ ㄴ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ ㄱ, ㄷ\n④ ㄴ\n⑤ ㄴ, ㄷ",
+        "answer_index": 5,
+        "answer_no": 5,
+        "answer": "5",
+        "params": {
+          "r1": 5,
+          "r2": 6,
+          "d1": 1,
+          "d2": 3
+        },
+        "sol": {
+          "A": 30,
+          "I1": 6,
+          "I2": 5,
+          "H1": 7,
+          "H2": 8
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": true,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 42,
+          "X2": 40,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_f89101d222",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 4 |\n| t₂ | 2 | 0 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① 없음\n② ㄱ, ㄴ, ㄷ\n③ ㄴ, ㄷ\n④ ㄱ, ㄷ\n⑤ ㄴ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "4",
+      "solution_md": "- target(ans_no)=4, mask=(True, False, True)\n- 유일해(보장): I1_max=I1=2로 제한\n- A=10, I1=2, I2=5, H1=6, H2=5\n- r1=5, d1=4, r2=2, d2=0\n- X1=14, X2=20, Xd=6\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            4
+          ],
+          [
+            "t2",
+            2,
+            0
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            4
+          ],
+          [
+            "t2",
+            2,
+            0
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              4
+            ],
+            [
+              "t2",
+              2,
+              0
+            ]
+          ]
+        },
+        "choices": [
+          "1 없음",
+          "2 ㄱ, ㄴ, ㄷ",
+          "3 ㄴ, ㄷ",
+          "4 ㄱ, ㄷ",
+          "5 ㄴ"
+        ],
+        "choice_lines": [
+          "① 없음",
+          "② ㄱ, ㄴ, ㄷ",
+          "③ ㄴ, ㄷ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄴ"
+        ],
+        "choices_md": "① 없음\n② ㄱ, ㄴ, ㄷ\n③ ㄴ, ㄷ\n④ ㄱ, ㄷ\n⑤ ㄴ",
+        "answer_index": 4,
+        "answer_no": 4,
+        "answer": "4",
+        "params": {
+          "r1": 5,
+          "r2": 2,
+          "d1": 4,
+          "d2": 0
+        },
+        "sol": {
+          "A": 10,
+          "I1": 2,
+          "I2": 5,
+          "H1": 6,
+          "H2": 5
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 14,
+          "X2": 20,
+          "Xd": 6
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_2dbc4f8051",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 2 | 5 |\n| t₂ | 3 | 0 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ, ㄷ\n② ㄷ\n③ ㄱ, ㄷ\n④ ㄱ, ㄴ\n⑤ ㄴ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "2",
+      "solution_md": "- target(ans_no)=2, mask=(False, False, True)\n- 유일해(보장): I1_max=I1=3로 제한\n- A=6, I1=3, I2=2, H1=8, H2=2\n- r1=2, d1=5, r2=3, d2=0\n- X1=12, X2=10, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            5
+          ],
+          [
+            "t2",
+            3,
+            0
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            5
+          ],
+          [
+            "t2",
+            3,
+            0
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              2,
+              5
+            ],
+            [
+              "t2",
+              3,
+              0
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ, ㄷ",
+          "2 ㄷ",
+          "3 ㄱ, ㄷ",
+          "4 ㄱ, ㄴ",
+          "5 ㄴ"
+        ],
+        "choice_lines": [
+          "① ㄴ, ㄷ",
+          "② ㄷ",
+          "③ ㄱ, ㄷ",
+          "④ ㄱ, ㄴ",
+          "⑤ ㄴ"
+        ],
+        "choices_md": "① ㄴ, ㄷ\n② ㄷ\n③ ㄱ, ㄷ\n④ ㄱ, ㄴ\n⑤ ㄴ",
+        "answer_index": 2,
+        "answer_no": 2,
+        "answer": "2",
+        "params": {
+          "r1": 2,
+          "r2": 3,
+          "d1": 5,
+          "d2": 0
+        },
+        "sol": {
+          "A": 6,
+          "I1": 3,
+          "I2": 2,
+          "H1": 8,
+          "H2": 2
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 12,
+          "X2": 10,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_06a1d14b76",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 8 |\n| t₂ | 4 | 7 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ ㄴ, ㄷ\n④ ㄱ, ㄴ\n⑤ ㄴ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "1",
+      "solution_md": "- target(ans_no)=1, mask=(True, False, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=20, I1=4, I2=5, H1=12, H2=12\n- r1=5, d1=8, r2=4, d2=7\n- X1=28, X2=30, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            8
+          ],
+          [
+            "t2",
+            4,
+            7
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            8
+          ],
+          [
+            "t2",
+            4,
+            7
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              8
+            ],
+            [
+              "t2",
+              4,
+              7
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄱ, ㄴ, ㄷ",
+          "3 ㄴ, ㄷ",
+          "4 ㄱ, ㄴ",
+          "5 ㄴ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄱ, ㄴ, ㄷ",
+          "③ ㄴ, ㄷ",
+          "④ ㄱ, ㄴ",
+          "⑤ ㄴ"
+        ],
+        "choices_md": "① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ ㄴ, ㄷ\n④ ㄱ, ㄴ\n⑤ ㄴ",
+        "answer_index": 1,
+        "answer_no": 1,
+        "answer": "1",
+        "params": {
+          "r1": 5,
+          "r2": 4,
+          "d1": 8,
+          "d2": 7
+        },
+        "sol": {
+          "A": 20,
+          "I1": 4,
+          "I2": 5,
+          "H1": 12,
+          "H2": 12
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 28,
+          "X2": 30,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_ab814f5485",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 8 | 0 |\n| t₂ | 9 | 2 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄴ\n③ ㄱ, ㄴ, ㄷ\n④ ㄱ, ㄴ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "5",
+      "solution_md": "- target(ans_no)=5, mask=(False, True, True)\n- 유일해(보장): I1_max=I1=9로 제한\n- A=72, I1=9, I2=8, H1=9, H2=10\n- r1=8, d1=0, r2=9, d2=2\n- X1=90, X2=88, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            8,
+            0
+          ],
+          [
+            "t2",
+            9,
+            2
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            8,
+            0
+          ],
+          [
+            "t2",
+            9,
+            2
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              8,
+              0
+            ],
+            [
+              "t2",
+              9,
+              2
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄴ",
+          "3 ㄱ, ㄴ, ㄷ",
+          "4 ㄱ, ㄴ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄴ",
+          "③ ㄱ, ㄴ, ㄷ",
+          "④ ㄱ, ㄴ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄴ\n③ ㄱ, ㄴ, ㄷ\n④ ㄱ, ㄴ\n⑤ ㄴ, ㄷ",
+        "answer_index": 5,
+        "answer_no": 5,
+        "answer": "5",
+        "params": {
+          "r1": 8,
+          "r2": 9,
+          "d1": 0,
+          "d2": 2
+        },
+        "sol": {
+          "A": 72,
+          "I1": 9,
+          "I2": 8,
+          "H1": 9,
+          "H2": 10
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": true,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 90,
+          "X2": 88,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_8e43e08d9b",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 8 |\n| t₂ | 4 | 9 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄷ\n② ㄴ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "3",
+      "solution_md": "- target(ans_no)=3, mask=(True, True, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=20, I1=4, I2=5, H1=12, H2=14\n- r1=5, d1=8, r2=4, d2=9\n- X1=28, X2=30, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            8
+          ],
+          [
+            "t2",
+            4,
+            9
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            8
+          ],
+          [
+            "t2",
+            4,
+            9
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              8
+            ],
+            [
+              "t2",
+              4,
+              9
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄷ",
+          "2 ㄴ",
+          "3 ㄱ, ㄴ",
+          "4 ㄴ, ㄷ",
+          "5 ㄱ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄷ",
+          "② ㄴ",
+          "③ ㄱ, ㄴ",
+          "④ ㄴ, ㄷ",
+          "⑤ ㄱ, ㄷ"
+        ],
+        "choices_md": "① ㄷ\n② ㄴ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄷ",
+        "answer_index": 3,
+        "answer_no": 3,
+        "answer": "3",
+        "params": {
+          "r1": 5,
+          "r2": 4,
+          "d1": 8,
+          "d2": 9
+        },
+        "sol": {
+          "A": 20,
+          "I1": 4,
+          "I2": 5,
+          "H1": 12,
+          "H2": 14
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": true,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 28,
+          "X2": 30,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_28b2672623",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 11 | 6 |\n| t₂ | 7 | 18 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② 없음\n③ ㄱ, ㄴ\n④ ㄱ\n⑤ ㄱ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "3",
+      "solution_md": "- target(ans_no)=3, mask=(True, True, False)\n- 유일해(보장): I1_max=I1=7로 제한\n- A=77, I1=7, I2=11, H1=13, H2=29\n- r1=11, d1=6, r2=7, d2=18\n- X1=91, X2=99, Xd=8\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            6
+          ],
+          [
+            "t2",
+            7,
+            18
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            6
+          ],
+          [
+            "t2",
+            7,
+            18
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              11,
+              6
+            ],
+            [
+              "t2",
+              7,
+              18
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 없음",
+          "3 ㄱ, ㄴ",
+          "4 ㄱ",
+          "5 ㄱ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② 없음",
+          "③ ㄱ, ㄴ",
+          "④ ㄱ",
+          "⑤ ㄱ, ㄷ"
+        ],
+        "choices_md": "① ㄴ\n② 없음\n③ ㄱ, ㄴ\n④ ㄱ\n⑤ ㄱ, ㄷ",
+        "answer_index": 3,
+        "answer_no": 3,
+        "answer": "3",
+        "params": {
+          "r1": 11,
+          "r2": 7,
+          "d1": 6,
+          "d2": 18
+        },
+        "sol": {
+          "A": 77,
+          "I1": 7,
+          "I2": 11,
+          "H1": 13,
+          "H2": 29
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": true,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 91,
+          "X2": 99,
+          "Xd": 8
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_bc2aa5a688",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 2 | 0 |\n| t₂ | 3 | 1 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① 없음\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "2",
+      "solution_md": "- target(ans_no)=2, mask=(False, False, True)\n- 유일해(보장): I1_max=I1=3로 제한\n- A=6, I1=3, I2=2, H1=3, H2=3\n- r1=2, d1=0, r2=3, d2=1\n- X1=12, X2=10, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            0
+          ],
+          [
+            "t2",
+            3,
+            1
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            2,
+            0
+          ],
+          [
+            "t2",
+            3,
+            1
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              2,
+              0
+            ],
+            [
+              "t2",
+              3,
+              1
+            ]
+          ]
+        },
+        "choices": [
+          "1 없음",
+          "2 ㄷ",
+          "3 ㄱ, ㄴ",
+          "4 ㄴ, ㄷ",
+          "5 ㄱ"
+        ],
+        "choice_lines": [
+          "① 없음",
+          "② ㄷ",
+          "③ ㄱ, ㄴ",
+          "④ ㄴ, ㄷ",
+          "⑤ ㄱ"
+        ],
+        "choices_md": "① 없음\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ",
+        "answer_index": 2,
+        "answer_no": 2,
+        "answer": "2",
+        "params": {
+          "r1": 2,
+          "r2": 3,
+          "d1": 0,
+          "d2": 1
+        },
+        "sol": {
+          "A": 6,
+          "I1": 3,
+          "I2": 2,
+          "H1": 3,
+          "H2": 3
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": false,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 12,
+          "X2": 10,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_0f4e335169",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 8 |\n| t₂ | 4 | 5 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄷ\n③ 없음\n④ ㄱ, ㄴ, ㄷ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "1",
+      "solution_md": "- target(ans_no)=1, mask=(True, False, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=20, I1=4, I2=5, H1=12, H2=10\n- r1=5, d1=8, r2=4, d2=5\n- X1=28, X2=30, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            8
+          ],
+          [
+            "t2",
+            4,
+            5
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            8
+          ],
+          [
+            "t2",
+            4,
+            5
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              8
+            ],
+            [
+              "t2",
+              4,
+              5
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄷ",
+          "3 없음",
+          "4 ㄱ, ㄴ, ㄷ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄷ",
+          "③ 없음",
+          "④ ㄱ, ㄴ, ㄷ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄷ\n③ 없음\n④ ㄱ, ㄴ, ㄷ\n⑤ ㄴ, ㄷ",
+        "answer_index": 1,
+        "answer_no": 1,
+        "answer": "1",
+        "params": {
+          "r1": 5,
+          "r2": 4,
+          "d1": 8,
+          "d2": 5
+        },
+        "sol": {
+          "A": 20,
+          "I1": 4,
+          "I2": 5,
+          "H1": 12,
+          "H2": 10
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 28,
+          "X2": 30,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_09c9fce41b",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 7 |\n| t₂ | 4 | 5 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ 없음\n④ ㄴ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "1",
+      "solution_md": "- target(ans_no)=1, mask=(True, False, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=20, I1=4, I2=5, H1=11, H2=10\n- r1=5, d1=7, r2=4, d2=5\n- X1=28, X2=30, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            7
+          ],
+          [
+            "t2",
+            4,
+            5
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            7
+          ],
+          [
+            "t2",
+            4,
+            5
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              7
+            ],
+            [
+              "t2",
+              4,
+              5
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄱ, ㄴ, ㄷ",
+          "3 없음",
+          "4 ㄴ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄱ, ㄴ, ㄷ",
+          "③ 없음",
+          "④ ㄴ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄱ, ㄴ, ㄷ\n③ 없음\n④ ㄴ\n⑤ ㄴ, ㄷ",
+        "answer_index": 1,
+        "answer_no": 1,
+        "answer": "1",
+        "params": {
+          "r1": 5,
+          "r2": 4,
+          "d1": 7,
+          "d2": 5
+        },
+        "sol": {
+          "A": 20,
+          "I1": 4,
+          "I2": 5,
+          "H1": 11,
+          "H2": 10
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 28,
+          "X2": 30,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_a0f1752400",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 7 | 0 |\n| t₂ | 9 | 3 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ, ㄴ, ㄷ\n② 없음\n③ ㄱ, ㄷ\n④ ㄱ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "5",
+      "solution_md": "- target(ans_no)=5, mask=(False, True, True)\n- 유일해(보장): I1_max=I1=9로 제한\n- A=63, I1=9, I2=7, H1=9, H2=10\n- r1=7, d1=0, r2=9, d2=3\n- X1=81, X2=77, Xd=-4\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            7,
+            0
+          ],
+          [
+            "t2",
+            9,
+            3
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            7,
+            0
+          ],
+          [
+            "t2",
+            9,
+            3
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              7,
+              0
+            ],
+            [
+              "t2",
+              9,
+              3
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ, ㄴ, ㄷ",
+          "2 없음",
+          "3 ㄱ, ㄷ",
+          "4 ㄱ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ, ㄴ, ㄷ",
+          "② 없음",
+          "③ ㄱ, ㄷ",
+          "④ ㄱ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ, ㄴ, ㄷ\n② 없음\n③ ㄱ, ㄷ\n④ ㄱ\n⑤ ㄴ, ㄷ",
+        "answer_index": 5,
+        "answer_no": 5,
+        "answer": "5",
+        "params": {
+          "r1": 7,
+          "r2": 9,
+          "d1": 0,
+          "d2": 3
+        },
+        "sol": {
+          "A": 63,
+          "I1": 9,
+          "I2": 7,
+          "H1": 9,
+          "H2": 10
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": true,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 81,
+          "X2": 77,
+          "Xd": -4
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_c9d3ea6436",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 11 | 0 |\n| t₂ | 12 | 3 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① 없음\n② ㄱ\n③ ㄱ, ㄴ, ㄷ\n④ ㄱ, ㄷ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "5",
+      "solution_md": "- target(ans_no)=5, mask=(False, True, True)\n- 유일해(보장): I1_max=I1=12로 제한\n- A=132, I1=12, I2=11, H1=12, H2=14\n- r1=11, d1=0, r2=12, d2=3\n- X1=156, X2=154, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            0
+          ],
+          [
+            "t2",
+            12,
+            3
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            0
+          ],
+          [
+            "t2",
+            12,
+            3
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              11,
+              0
+            ],
+            [
+              "t2",
+              12,
+              3
+            ]
+          ]
+        },
+        "choices": [
+          "1 없음",
+          "2 ㄱ",
+          "3 ㄱ, ㄴ, ㄷ",
+          "4 ㄱ, ㄷ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① 없음",
+          "② ㄱ",
+          "③ ㄱ, ㄴ, ㄷ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① 없음\n② ㄱ\n③ ㄱ, ㄴ, ㄷ\n④ ㄱ, ㄷ\n⑤ ㄴ, ㄷ",
+        "answer_index": 5,
+        "answer_no": 5,
+        "answer": "5",
+        "params": {
+          "r1": 11,
+          "r2": 12,
+          "d1": 0,
+          "d2": 3
+        },
+        "sol": {
+          "A": 132,
+          "I1": 12,
+          "I2": 11,
+          "H1": 12,
+          "H2": 14
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": true,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 156,
+          "X2": 154,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_0bcb44f8a1",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 11 | 4 |\n| t₂ | 5 | 15 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ, ㄷ\n② ㄴ\n③ ㄱ, ㄴ\n④ ㄱ, ㄴ, ㄷ\n⑤ 없음",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "3",
+      "solution_md": "- target(ans_no)=3, mask=(True, True, False)\n- 유일해(보장): I1_max=I1=5로 제한\n- A=55, I1=5, I2=11, H1=9, H2=26\n- r1=11, d1=4, r2=5, d2=15\n- X1=65, X2=77, Xd=12\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            4
+          ],
+          [
+            "t2",
+            5,
+            15
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            11,
+            4
+          ],
+          [
+            "t2",
+            5,
+            15
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              11,
+              4
+            ],
+            [
+              "t2",
+              5,
+              15
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ, ㄷ",
+          "2 ㄴ",
+          "3 ㄱ, ㄴ",
+          "4 ㄱ, ㄴ, ㄷ",
+          "5 없음"
+        ],
+        "choice_lines": [
+          "① ㄱ, ㄷ",
+          "② ㄴ",
+          "③ ㄱ, ㄴ",
+          "④ ㄱ, ㄴ, ㄷ",
+          "⑤ 없음"
+        ],
+        "choices_md": "① ㄱ, ㄷ\n② ㄴ\n③ ㄱ, ㄴ\n④ ㄱ, ㄴ, ㄷ\n⑤ 없음",
+        "answer_index": 3,
+        "answer_no": 3,
+        "answer": "3",
+        "params": {
+          "r1": 11,
+          "r2": 5,
+          "d1": 4,
+          "d2": 15
+        },
+        "sol": {
+          "A": 55,
+          "I1": 5,
+          "I2": 11,
+          "H1": 9,
+          "H2": 26
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": true,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 65,
+          "X2": 77,
+          "Xd": 12
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_a6bff484cf",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 1 |\n| t₂ | 6 | 3 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄴ\n② ㄷ\n③ 없음\n④ ㄱ, ㄷ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "5",
+      "solution_md": "- target(ans_no)=5, mask=(False, True, True)\n- 유일해(보장): I1_max=I1=6로 제한\n- A=30, I1=6, I2=5, H1=7, H2=8\n- r1=5, d1=1, r2=6, d2=3\n- X1=42, X2=40, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            1
+          ],
+          [
+            "t2",
+            6,
+            3
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            1
+          ],
+          [
+            "t2",
+            6,
+            3
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              1
+            ],
+            [
+              "t2",
+              6,
+              3
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄴ",
+          "2 ㄷ",
+          "3 없음",
+          "4 ㄱ, ㄷ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄴ",
+          "② ㄷ",
+          "③ 없음",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄴ\n② ㄷ\n③ 없음\n④ ㄱ, ㄷ\n⑤ ㄴ, ㄷ",
+        "answer_index": 5,
+        "answer_no": 5,
+        "answer": "5",
+        "params": {
+          "r1": 5,
+          "r2": 6,
+          "d1": 1,
+          "d2": 3
+        },
+        "sol": {
+          "A": 30,
+          "I1": 6,
+          "I2": 5,
+          "H1": 7,
+          "H2": 8
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": true,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 42,
+          "X2": 40,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_10baca34a3",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 10 | 0 |\n| t₂ | 11 | 2 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ, ㄴ, ㄷ\n② ㄱ\n③ ㄱ, ㄴ\n④ ㄱ, ㄷ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "5",
+      "solution_md": "- target(ans_no)=5, mask=(False, True, True)\n- 유일해(보장): I1_max=I1=11로 제한\n- A=110, I1=11, I2=10, H1=11, H2=12\n- r1=10, d1=0, r2=11, d2=2\n- X1=132, X2=130, Xd=-2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            10,
+            0
+          ],
+          [
+            "t2",
+            11,
+            2
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            10,
+            0
+          ],
+          [
+            "t2",
+            11,
+            2
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              10,
+              0
+            ],
+            [
+              "t2",
+              11,
+              2
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ, ㄴ, ㄷ",
+          "2 ㄱ",
+          "3 ㄱ, ㄴ",
+          "4 ㄱ, ㄷ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ, ㄴ, ㄷ",
+          "② ㄱ",
+          "③ ㄱ, ㄴ",
+          "④ ㄱ, ㄷ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ, ㄴ, ㄷ\n② ㄱ\n③ ㄱ, ㄴ\n④ ㄱ, ㄷ\n⑤ ㄴ, ㄷ",
+        "answer_index": 5,
+        "answer_no": 5,
+        "answer": "5",
+        "params": {
+          "r1": 10,
+          "r2": 11,
+          "d1": 0,
+          "d2": 2
+        },
+        "sol": {
+          "A": 110,
+          "I1": 11,
+          "I2": 10,
+          "H1": 11,
+          "H2": 12
+        },
+        "truth_mask": {
+          "ㄱ": false,
+          "ㄴ": true,
+          "ㄷ": true
+        },
+        "X": {
+          "X1": 132,
+          "X2": 130,
+          "Xd": -2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    },
+    {
+      "id": "SNTG_26025_0076_c8fbc83d2a",
+      "module": "SNTG_26025_0076_",
+      "id_prefix": "SNTG_26025_0076_",
+      "difficulty": 2,
+      "problem_text_md": "![](SNTG_LEMMA_1.png)\n\n다음은 골격근의 수축 과정에 대한 자료이다.\n\n그림은 근육 원섬유 마디 X의 구조를 나타낸 것이다. X는 좌우 대칭이고, Z₁과 Z₂는 X의 Z선이다.\n구간 ㉠은 마이오신 필라멘트가 있는 부분이고, ㉡은 액틴 필라멘트만 있는 부분이며, ㉢은 마이오신 필라멘트만 있는 부분이다.\n\n표는 시점 t₁과 t₂일 때 ㉠의 길이를 ㉡의 길이로 나눈 값(㉠/㉡),\n㉢의 길이에서 ㉡의 길이를 뺀 값(㉢−㉡)을 나타낸 것이다.\n\n| 시점 | ㉠/㉡ | ㉢−㉡(μm) |\n|---|---:|---:|\n| t₁ | 5 | 7 |\n| t₂ | 4 | 6 |\n\n<보기>\nㄱ. t₂에서 ㉡의 길이는 t₁보다 늘었다.\nㄴ. t₂에서 ㉢의 길이는 t₁보다 늘었다.\nㄷ. t₂에서 (㉢−㉡)의 값 d는 ㉡(t₂)보다 작다.\n\n① ㄱ\n② ㄱ, ㄴ\n③ ㄱ, ㄷ\n④ ㄱ, ㄴ, ㄷ\n⑤ ㄴ, ㄷ",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?",
+      "answer_text_md": "1",
+      "solution_md": "- target(ans_no)=1, mask=(True, False, False)\n- 유일해(보장): I1_max=I1=4로 제한\n- A=20, I1=4, I2=5, H1=11, H2=11\n- r1=5, d1=7, r2=4, d2=6\n- X1=28, X2=30, Xd=2\n",
+      "payload": {
+        "lemma": "SNTG_LEMMA_1.png",
+        "lemma_path": "SNTG_LEMMA_1.png",
+        "figure": "SNTG_LEMMA_1.png",
+        "figure_path": "SNTG_LEMMA_1.png",
+        "image": "SNTG_LEMMA_1.png",
+        "image_path": "SNTG_LEMMA_1.png",
+        "image_files": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "figures": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "assets": [
+          "SNTG_LEMMA_1.png"
+        ],
+        "images": [
+          {
+            "type": "lemma",
+            "file": "SNTG_LEMMA_1.png"
+          }
+        ],
+        "table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            7
+          ],
+          [
+            "t2",
+            4,
+            6
+          ]
+        ],
+        "given_table_grid": [
+          [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          [
+            "t1",
+            5,
+            7
+          ],
+          [
+            "t2",
+            4,
+            6
+          ]
+        ],
+        "table": {
+          "headers": [
+            "시점",
+            "㉠/㉡",
+            "㉢−㉡(μm)"
+          ],
+          "rows": [
+            [
+              "t1",
+              5,
+              7
+            ],
+            [
+              "t2",
+              4,
+              6
+            ]
+          ]
+        },
+        "choices": [
+          "1 ㄱ",
+          "2 ㄱ, ㄴ",
+          "3 ㄱ, ㄷ",
+          "4 ㄱ, ㄴ, ㄷ",
+          "5 ㄴ, ㄷ"
+        ],
+        "choice_lines": [
+          "① ㄱ",
+          "② ㄱ, ㄴ",
+          "③ ㄱ, ㄷ",
+          "④ ㄱ, ㄴ, ㄷ",
+          "⑤ ㄴ, ㄷ"
+        ],
+        "choices_md": "① ㄱ\n② ㄱ, ㄴ\n③ ㄱ, ㄷ\n④ ㄱ, ㄴ, ㄷ\n⑤ ㄴ, ㄷ",
+        "answer_index": 1,
+        "answer_no": 1,
+        "answer": "1",
+        "params": {
+          "r1": 5,
+          "r2": 4,
+          "d1": 7,
+          "d2": 6
+        },
+        "sol": {
+          "A": 20,
+          "I1": 4,
+          "I2": 5,
+          "H1": 11,
+          "H2": 11
+        },
+        "truth_mask": {
+          "ㄱ": true,
+          "ㄴ": false,
+          "ㄷ": false
+        },
+        "X": {
+          "X1": 28,
+          "X2": 30,
+          "Xd": 2
+        },
+        "mode": "constructive_final_unique100"
+      }
+    }
+  ],
+  "debug": {
+    "attempts_total": 30,
+    "max_total_attempts": 20000,
+    "answer_plan": [
+      2,
+      4,
+      4,
+      1,
+      4,
+      2,
+      3,
+      2,
+      4,
+      1,
+      2,
+      3,
+      3,
+      4,
+      5,
+      4,
+      2,
+      1,
+      5,
+      3,
+      3,
+      2,
+      1,
+      1,
+      5,
+      5,
+      3,
+      5,
+      5,
+      1
+    ]
+  }
+}
