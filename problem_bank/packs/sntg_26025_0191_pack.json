@@ -1,0 +1,8654 @@
+{
+  "pack_id": "43fb96d5eedac07a9e5f78265e88169a",
+  "pack_name": "SNTG_26025_0191_pack_20260219",
+  "created_at": 1771432819,
+  "config": {
+    "module": "SNTG_26025_0191",
+    "difficulty": 3,
+    "n": 30,
+    "base_seed": 20260219
+  },
+  "count": 30,
+  "items": [
+    {
+      "id": "SNTG_26025_0191_10dd00517d",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=False\n- 정답 옵션: 3\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260219,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              2,
+              "?",
+              2,
+              4,
+              0
+            ],
+            [
+              "㉡",
+              "?",
+              0,
+              "?",
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉢",
+              2,
+              2,
+              4,
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉣",
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              "㉤",
+              0,
+              2,
+              0,
+              2,
+              "?",
+              0
+            ],
+            [
+              "㉥",
+              2,
+              0,
+              "?",
+              0,
+              "?",
+              "?"
+            ]
+          ],
+          "label_map": {
+            "㉠": "II",
+            "㉡": "VI",
+            "㉢": "I",
+            "㉣": "V",
+            "㉤": "IV",
+            "㉥": "III"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": false
+        },
+        "answer_option": 3
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_9037b1c9bf",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉣은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260220,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              "?",
+              0,
+              2,
+              2,
+              0
+            ],
+            [
+              "㉡",
+              2,
+              2,
+              0,
+              "?",
+              2,
+              2
+            ],
+            [
+              "㉢",
+              1,
+              0,
+              0,
+              1,
+              1,
+              "?"
+            ],
+            [
+              "㉣",
+              0,
+              0,
+              "?",
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉤",
+              "?",
+              "?",
+              "?",
+              2,
+              4,
+              0
+            ],
+            [
+              "㉥",
+              0,
+              "?",
+              0,
+              1,
+              1,
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "I",
+            "㉢": "VI",
+            "㉣": "IV",
+            "㉤": "II",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_307946e5dc",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "1",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=False, ㄷ=False\n- 정답 옵션: 1\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260221,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              0,
+              2,
+              0,
+              "?",
+              2
+            ],
+            [
+              "㉡",
+              "?",
+              2,
+              0,
+              4,
+              "?",
+              4
+            ],
+            [
+              "㉢",
+              "?",
+              2,
+              0,
+              2,
+              "?",
+              2
+            ],
+            [
+              "㉣",
+              "?",
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉤",
+              4,
+              "?",
+              2,
+              2,
+              0,
+              4
+            ],
+            [
+              "㉥",
+              0,
+              0,
+              "?",
+              1,
+              "?",
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "II",
+            "㉢": "IV",
+            "㉣": "V",
+            "㉤": "I",
+            "㉥": "VI"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": false,
+          "d": false
+        },
+        "answer_option": 1
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_f1c21e9c8e",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉣은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260222,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              "㉡",
+              0,
+              "?",
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              "㉢",
+              "?",
+              0,
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "㉣",
+              "?",
+              0,
+              0,
+              "?",
+              "?",
+              4
+            ],
+            [
+              "㉤",
+              "?",
+              "?",
+              0,
+              1,
+              0,
+              "?"
+            ],
+            [
+              "㉥",
+              2,
+              "?",
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "IV",
+            "㉢": "III",
+            "㉣": "I",
+            "㉤": "VI",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_5bb816a534",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=False\n- 정답 옵션: 3\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260223,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              0,
+              "?",
+              "?",
+              0,
+              2
+            ],
+            [
+              "㉡",
+              2,
+              "?",
+              2,
+              0,
+              2,
+              "?"
+            ],
+            [
+              "㉢",
+              2,
+              0,
+              4,
+              0,
+              2,
+              2
+            ],
+            [
+              "㉣",
+              0,
+              "?",
+              "?",
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉤",
+              1,
+              0,
+              1,
+              "?",
+              0,
+              1
+            ],
+            [
+              "㉥",
+              4,
+              0,
+              "?",
+              0,
+              2,
+              2
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "IV",
+            "㉢": "II",
+            "㉣": "VI",
+            "㉤": "V",
+            "㉥": "I"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": false
+        },
+        "answer_option": 3
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_154499a922",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "1",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=False, ㄷ=False\n- 정답 옵션: 1\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260224,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              1,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉡",
+              0,
+              2,
+              4,
+              0,
+              2,
+              2
+            ],
+            [
+              "㉢",
+              "?",
+              2,
+              2,
+              "?",
+              2,
+              2
+            ],
+            [
+              "㉣",
+              "?",
+              2,
+              2,
+              0,
+              "?",
+              2
+            ],
+            [
+              "㉤",
+              "?",
+              0,
+              "?",
+              "?",
+              1,
+              "?"
+            ],
+            [
+              "㉥",
+              2,
+              0,
+              2,
+              0,
+              0,
+              "?"
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "II",
+            "㉢": "I",
+            "㉣": "IV",
+            "㉤": "VI",
+            "㉥": "III"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": false,
+          "d": false
+        },
+        "answer_option": 1
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_d65e421f12",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉢은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260225,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              "?",
+              0,
+              0,
+              4,
+              0,
+              4
+            ],
+            [
+              "㉡",
+              2,
+              0,
+              "?",
+              0,
+              0,
+              2
+            ],
+            [
+              "㉢",
+              4,
+              "?",
+              4,
+              "?",
+              2,
+              2
+            ],
+            [
+              "㉣",
+              1,
+              "?",
+              "?",
+              0,
+              0,
+              1
+            ],
+            [
+              "㉤",
+              0,
+              0,
+              "?",
+              2,
+              0,
+              "?"
+            ],
+            [
+              "㉥",
+              "?",
+              0,
+              0,
+              1,
+              0,
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "II",
+            "㉡": "III",
+            "㉢": "I",
+            "㉣": "V",
+            "㉤": "IV",
+            "㉥": "VI"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_e6c81e2eb7",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉤은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260226,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              0,
+              2,
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉡",
+              4,
+              0,
+              2,
+              2,
+              0,
+              4
+            ],
+            [
+              "㉢",
+              "?",
+              2,
+              4,
+              0,
+              "?",
+              4
+            ],
+            [
+              "㉣",
+              "?",
+              1,
+              1,
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉤",
+              0,
+              "?",
+              "?",
+              0,
+              0,
+              2
+            ],
+            [
+              "㉥",
+              1,
+              0,
+              "?",
+              0,
+              "?",
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "I",
+            "㉢": "II",
+            "㉣": "VI",
+            "㉤": "IV",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_4e8bb95f32",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260227,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              2,
+              4,
+              0,
+              "?",
+              "?"
+            ],
+            [
+              "㉡",
+              "?",
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              "㉢",
+              0,
+              2,
+              0,
+              2,
+              "?",
+              2
+            ],
+            [
+              "㉣",
+              0,
+              4,
+              2,
+              2,
+              0,
+              4
+            ],
+            [
+              "㉤",
+              0,
+              1,
+              0,
+              1,
+              0,
+              "?"
+            ],
+            [
+              "㉥",
+              "?",
+              "?",
+              "?",
+              "?",
+              0,
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "II",
+            "㉡": "IV",
+            "㉢": "III",
+            "㉣": "I",
+            "㉤": "V",
+            "㉥": "VI"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_ed8a8b8f49",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉢은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260228,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              "?",
+              0,
+              "?",
+              "?",
+              "?"
+            ],
+            [
+              "㉡",
+              2,
+              2,
+              0,
+              4,
+              0,
+              4
+            ],
+            [
+              "㉢",
+              2,
+              0,
+              4,
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉣",
+              1,
+              "?",
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              "㉤",
+              0,
+              0,
+              "?",
+              "?",
+              2,
+              0
+            ],
+            [
+              "㉥",
+              0,
+              "?",
+              0,
+              1,
+              0,
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "I",
+            "㉢": "II",
+            "㉣": "VI",
+            "㉤": "IV",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_2e1bf7243b",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260229,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              0,
+              0,
+              "?",
+              2,
+              2
+            ],
+            [
+              "㉡",
+              "?",
+              "?",
+              2,
+              "?",
+              0,
+              2
+            ],
+            [
+              "㉢",
+              4,
+              0,
+              4,
+              0,
+              "?",
+              2
+            ],
+            [
+              "㉣",
+              1,
+              0,
+              1,
+              0,
+              "?",
+              1
+            ],
+            [
+              "㉤",
+              1,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              "㉥",
+              0,
+              "?",
+              0,
+              2,
+              "?",
+              "?"
+            ]
+          ],
+          "label_map": {
+            "㉠": "II",
+            "㉡": "III",
+            "㉢": "I",
+            "㉣": "V",
+            "㉤": "VI",
+            "㉥": "IV"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_17e96f15b6",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260230,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              2,
+              2,
+              "?",
+              0,
+              2
+            ],
+            [
+              "㉡",
+              0,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉢",
+              "?",
+              0,
+              "?",
+              2,
+              0,
+              "?"
+            ],
+            [
+              "㉣",
+              1,
+              "?",
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉤",
+              0,
+              "?",
+              4,
+              0,
+              "?",
+              4
+            ],
+            [
+              "㉥",
+              2,
+              0,
+              "?",
+              "?",
+              0,
+              4
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "V",
+            "㉢": "IV",
+            "㉣": "VI",
+            "㉤": "I",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_2b593e18de",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉣은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260231,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              1,
+              0,
+              1,
+              "?",
+              0
+            ],
+            [
+              "㉡",
+              2,
+              "?",
+              0,
+              4,
+              4,
+              0
+            ],
+            [
+              "㉢",
+              1,
+              0,
+              "?",
+              "?",
+              1,
+              0
+            ],
+            [
+              "㉣",
+              2,
+              0,
+              "?",
+              "?",
+              "?",
+              2
+            ],
+            [
+              "㉤",
+              0,
+              2,
+              0,
+              2,
+              2,
+              0
+            ],
+            [
+              "㉥",
+              "?",
+              0,
+              2,
+              0,
+              "?",
+              2
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "I",
+            "㉢": "VI",
+            "㉣": "II",
+            "㉤": "III",
+            "㉥": "IV"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_d48db51fa1",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260232,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              "?",
+              0,
+              4,
+              2,
+              "?"
+            ],
+            [
+              "㉡",
+              0,
+              1,
+              "?",
+              1,
+              0,
+              1
+            ],
+            [
+              "㉢",
+              0,
+              1,
+              0,
+              1,
+              "?",
+              1
+            ],
+            [
+              "㉣",
+              0,
+              "?",
+              2,
+              0,
+              2,
+              "?"
+            ],
+            [
+              "㉤",
+              "?",
+              "?",
+              0,
+              2,
+              "?",
+              2
+            ],
+            [
+              "㉥",
+              0,
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          ],
+          "label_map": {
+            "㉠": "I",
+            "㉡": "V",
+            "㉢": "VI",
+            "㉣": "IV",
+            "㉤": "III",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 0,
+              "b": 4,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_8487658f69",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=False\n- 정답 옵션: 3\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260233,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              "?",
+              1,
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉡",
+              1,
+              "?",
+              "?",
+              "?",
+              1,
+              0
+            ],
+            [
+              "㉢",
+              0,
+              2,
+              0,
+              2,
+              "?",
+              2
+            ],
+            [
+              "㉣",
+              "?",
+              2,
+              4,
+              0,
+              "?",
+              2
+            ],
+            [
+              "㉤",
+              0,
+              "?",
+              2,
+              2,
+              0,
+              4
+            ],
+            [
+              "㉥",
+              2,
+              0,
+              2,
+              0,
+              2,
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "VI",
+            "㉡": "V",
+            "㉢": "IV",
+            "㉣": "I",
+            "㉤": "II",
+            "㉥": "III"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": false
+        },
+        "answer_option": 3
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_750c292f0a",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉣은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260234,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              1,
+              "?",
+              "?",
+              0,
+              "?"
+            ],
+            [
+              "㉡",
+              0,
+              4,
+              4,
+              0,
+              "?",
+              4
+            ],
+            [
+              "㉢",
+              0,
+              0,
+              2,
+              0,
+              "?",
+              "?"
+            ],
+            [
+              "㉣",
+              0,
+              2,
+              2,
+              2,
+              0,
+              4
+            ],
+            [
+              "㉤",
+              0,
+              2,
+              2,
+              0,
+              0,
+              2
+            ],
+            [
+              "㉥",
+              "?",
+              "?",
+              "?",
+              0,
+              0,
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "VI",
+            "㉡": "I",
+            "㉢": "IV",
+            "㉣": "II",
+            "㉤": "III",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_80637ce553",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉢은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260235,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              2,
+              "?",
+              2,
+              2,
+              2
+            ],
+            [
+              "㉡",
+              0,
+              2,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              "㉢",
+              "?",
+              2,
+              2,
+              2,
+              "?",
+              2
+            ],
+            [
+              "㉣",
+              0,
+              1,
+              1,
+              "?",
+              "?",
+              1
+            ],
+            [
+              "㉤",
+              0,
+              0,
+              0,
+              2,
+              2,
+              "?"
+            ],
+            [
+              "㉥",
+              "?",
+              1,
+              1,
+              "?",
+              "?",
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "II",
+            "㉡": "III",
+            "㉢": "I",
+            "㉣": "VI",
+            "㉤": "IV",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_e9db85e606",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉢은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260236,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              "?",
+              1,
+              1,
+              "?",
+              0,
+              1
+            ],
+            [
+              "㉡",
+              "?",
+              0,
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "㉢",
+              0,
+              2,
+              "?",
+              2,
+              0,
+              4
+            ],
+            [
+              "㉣",
+              0,
+              0,
+              0,
+              2,
+              "?",
+              2
+            ],
+            [
+              "㉤",
+              "?",
+              "?",
+              0,
+              "?",
+              0,
+              1
+            ],
+            [
+              "㉥",
+              2,
+              2,
+              2,
+              2,
+              0,
+              "?"
+            ]
+          ],
+          "label_map": {
+            "㉠": "VI",
+            "㉡": "III",
+            "㉢": "II",
+            "㉣": "IV",
+            "㉤": "V",
+            "㉥": "I"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_c40e645e80",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=False\n- 정답 옵션: 3\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260237,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              0,
+              2,
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉡",
+              2,
+              0,
+              0,
+              2,
+              "?",
+              0
+            ],
+            [
+              "㉢",
+              4,
+              0,
+              "?",
+              "?",
+              2,
+              "?"
+            ],
+            [
+              "㉣",
+              "?",
+              0,
+              "?",
+              1,
+              1,
+              0
+            ],
+            [
+              "㉤",
+              2,
+              0,
+              "?",
+              "?",
+              4,
+              0
+            ],
+            [
+              "㉥",
+              1,
+              0,
+              1,
+              0,
+              0,
+              1
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "IV",
+            "㉢": "I",
+            "㉣": "VI",
+            "㉤": "II",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": false
+        },
+        "answer_option": 3
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_c0fc9d0ce9",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260238,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              "?",
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              "㉡",
+              2,
+              "?",
+              "?",
+              2,
+              2,
+              0
+            ],
+            [
+              "㉢",
+              "?",
+              2,
+              "?",
+              0,
+              4,
+              0
+            ],
+            [
+              "㉣",
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              "㉤",
+              "?",
+              "?",
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              "㉥",
+              0,
+              0,
+              "?",
+              0,
+              "?",
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "III",
+            "㉢": "II",
+            "㉣": "VI",
+            "㉤": "I",
+            "㉥": "IV"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_5110919a16",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉡은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260239,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              "?",
+              2,
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉡",
+              4,
+              0,
+              "?",
+              0,
+              4,
+              0
+            ],
+            [
+              "㉢",
+              1,
+              0,
+              1,
+              "?",
+              "?",
+              "?"
+            ],
+            [
+              "㉣",
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              "㉤",
+              2,
+              0,
+              "?",
+              0,
+              2,
+              0
+            ],
+            [
+              "㉥",
+              "?",
+              0,
+              4,
+              0,
+              "?",
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "IV",
+            "㉡": "I",
+            "㉢": "V",
+            "㉣": "VI",
+            "㉤": "III",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_f000b0dc83",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "5",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=True\n- 정답 옵션: 5\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260240,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              0,
+              2,
+              0,
+              0,
+              2
+            ],
+            [
+              "㉡",
+              "?",
+              "?",
+              "?",
+              "?",
+              0,
+              4
+            ],
+            [
+              "㉢",
+              1,
+              0,
+              1,
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉣",
+              4,
+              0,
+              "?",
+              0,
+              2,
+              2
+            ],
+            [
+              "㉤",
+              "?",
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉥",
+              2,
+              "?",
+              "?",
+              0,
+              0,
+              2
+            ]
+          ],
+          "label_map": {
+            "㉠": "IV",
+            "㉡": "II",
+            "㉢": "VI",
+            "㉣": "I",
+            "㉤": "V",
+            "㉥": "III"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 5
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_69cd63ba4a",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉠은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260241,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              0,
+              2,
+              "?",
+              "?",
+              2
+            ],
+            [
+              "㉡",
+              2,
+              0,
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "㉢",
+              2,
+              2,
+              "?",
+              4,
+              0,
+              "?"
+            ],
+            [
+              "㉣",
+              "?",
+              1,
+              1,
+              0,
+              0,
+              "?"
+            ],
+            [
+              "㉤",
+              1,
+              "?",
+              0,
+              "?",
+              0,
+              "?"
+            ],
+            [
+              "㉥",
+              0,
+              2,
+              4,
+              0,
+              0,
+              4
+            ]
+          ],
+          "label_map": {
+            "㉠": "IV",
+            "㉡": "III",
+            "㉢": "I",
+            "㉣": "VI",
+            "㉤": "V",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_d9097930fa",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉢은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260242,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              1,
+              0,
+              1,
+              0,
+              1,
+              "?"
+            ],
+            [
+              "㉡",
+              2,
+              0,
+              "?",
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉢",
+              2,
+              0,
+              2,
+              "?",
+              2,
+              "?"
+            ],
+            [
+              "㉣",
+              1,
+              0,
+              0,
+              1,
+              0,
+              "?"
+            ],
+            [
+              "㉤",
+              "?",
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              "㉥",
+              4,
+              0,
+              2,
+              "?",
+              "?",
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "III",
+            "㉢": "II",
+            "㉣": "VI",
+            "㉤": "IV",
+            "㉥": "I"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_b4b699ad30",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉡은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "5",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=True\n- 정답 옵션: 5\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260243,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              "?",
+              "?",
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉡",
+              0,
+              2,
+              "?",
+              0,
+              2,
+              0
+            ],
+            [
+              "㉢",
+              "?",
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              "㉣",
+              2,
+              2,
+              "?",
+              "?",
+              "?",
+              0
+            ],
+            [
+              "㉤",
+              0,
+              0,
+              "?",
+              2,
+              2,
+              0
+            ],
+            [
+              "㉥",
+              0,
+              2,
+              0,
+              4,
+              4,
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "III",
+            "㉢": "VI",
+            "㉣": "I",
+            "㉤": "IV",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 5
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_34ae22a050",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉤은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "2",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=False, ㄷ=True\n- 정답 옵션: 2\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260244,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              0,
+              0,
+              "?",
+              "?",
+              0
+            ],
+            [
+              "㉡",
+              "?",
+              2,
+              2,
+              2,
+              0,
+              4
+            ],
+            [
+              "㉢",
+              "?",
+              0,
+              "?",
+              2,
+              0,
+              2
+            ],
+            [
+              "㉣",
+              0,
+              "?",
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉤",
+              "?",
+              2,
+              0,
+              "?",
+              4,
+              0
+            ],
+            [
+              "㉥",
+              1,
+              0,
+              0,
+              1,
+              1,
+              "?"
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "II",
+            "㉢": "IV",
+            "㉣": "VI",
+            "㉤": "I",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": false,
+          "d": true
+        },
+        "answer_option": 2
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_a13c58d83e",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉥은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260245,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              "?",
+              0,
+              2,
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉡",
+              2,
+              2,
+              4,
+              0,
+              4,
+              0
+            ],
+            [
+              "㉢",
+              "?",
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              "㉣",
+              0,
+              2,
+              2,
+              0,
+              "?",
+              0
+            ],
+            [
+              "㉤",
+              "?",
+              1,
+              1,
+              0,
+              1,
+              "?"
+            ],
+            [
+              "㉥",
+              2,
+              0,
+              "?",
+              0,
+              "?",
+              "?"
+            ]
+          ],
+          "label_map": {
+            "㉠": "IV",
+            "㉡": "I",
+            "㉢": "VI",
+            "㉣": "III",
+            "㉤": "V",
+            "㉥": "II"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_831296246e",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉣은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260246,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              "㉡",
+              "?",
+              0,
+              "?",
+              "?",
+              0,
+              4
+            ],
+            [
+              "㉢",
+              "?",
+              "?",
+              "?",
+              "?",
+              0,
+              1
+            ],
+            [
+              "㉣",
+              0,
+              0,
+              0,
+              2,
+              0,
+              2
+            ],
+            [
+              "㉤",
+              0,
+              2,
+              "?",
+              0,
+              2,
+              0
+            ],
+            [
+              "㉥",
+              2,
+              "?",
+              2,
+              2,
+              4,
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "II",
+            "㉢": "VI",
+            "㉣": "IV",
+            "㉤": "III",
+            "㉥": "I"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_4e6cb18dd9",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉡은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "4",
+      "solution_md": "- 진릿값: ㄱ=False, ㄴ=True, ㄷ=True\n- 정답 옵션: 4\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260247,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              2,
+              "?",
+              2,
+              "?",
+              "?",
+              0
+            ],
+            [
+              "㉡",
+              1,
+              0,
+              0,
+              "?",
+              0,
+              "?"
+            ],
+            [
+              "㉢",
+              0,
+              0,
+              0,
+              "?",
+              0,
+              2
+            ],
+            [
+              "㉣",
+              2,
+              0,
+              0,
+              4,
+              "?",
+              4
+            ],
+            [
+              "㉤",
+              "?",
+              0,
+              "?",
+              0,
+              4,
+              0
+            ],
+            [
+              "㉥",
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "label_map": {
+            "㉠": "III",
+            "㉡": "VI",
+            "㉢": "IV",
+            "㉣": "II",
+            "㉤": "I",
+            "㉥": "V"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": false,
+          "n": true,
+          "d": true
+        },
+        "answer_option": 4
+      }
+    },
+    {
+      "id": "SNTG_26025_0191_8c14c28e31",
+      "module": "SNTG_26025_0191",
+      "id_prefix": "SNTG_26025_0191_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0191.png)\n\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은? (단, 돌연변이와 교차는 고려하지 않으며, A, a, B, b, D, d 각각의 1개당 DNA 상대량은 1이다.)\n\n<보기>\nㄱ. ㉤은 III이다.\nㄴ. I의 감수 분열 결과 B와 D를 모두 갖는 생식세포가 형성될 수 있다.\nㄷ. V와 VI이 수정되어 자녀가 태어날 때, 이 자녀의 성별은 여자이다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "- 진릿값: ㄱ=True, ㄴ=True, ㄷ=False\n- 정답 옵션: 3\n- 템플릿 가지 강제: V는 III-가지, VI는 IV-가지가 아님",
+      "payload": {
+        "seed": 20260248,
+        "difficulty": 3,
+        "table_grid": {
+          "headers": [
+            "세포",
+            "A",
+            "a",
+            "B",
+            "b",
+            "D",
+            "d"
+          ],
+          "rows": [
+            [
+              "㉠",
+              1,
+              0,
+              "?",
+              0,
+              "?",
+              "?"
+            ],
+            [
+              "㉡",
+              "?",
+              0,
+              4,
+              0,
+              "?",
+              2
+            ],
+            [
+              "㉢",
+              0,
+              2,
+              4,
+              0,
+              0,
+              4
+            ],
+            [
+              "㉣",
+              "?",
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              "㉤",
+              "?",
+              0,
+              2,
+              "?",
+              0,
+              2
+            ],
+            [
+              "㉥",
+              0,
+              2,
+              "?",
+              0,
+              0,
+              2
+            ]
+          ],
+          "label_map": {
+            "㉠": "V",
+            "㉡": "I",
+            "㉢": "II",
+            "㉣": "VI",
+            "㉤": "III",
+            "㉥": "IV"
+          }
+        },
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "truths": {
+          "g": true,
+          "n": true,
+          "d": false
+        },
+        "answer_option": 3
+      }
+    }
+  ]
+}
