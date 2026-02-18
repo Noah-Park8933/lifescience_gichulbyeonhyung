@@ -1,0 +1,3134 @@
+{
+  "pack_id": "078e6f6291a30a74360b3a106b611dd1",
+  "pack_name": "SNTG_26025_0188_pack_260250188",
+  "created_at": 1771428411,
+  "config": {
+    "module": "SNTG_26025_0188",
+    "difficulty": 3,
+    "n": 30,
+    "base_seed": 260250188
+  },
+  "count": 30,
+  "items": [
+    {
+      "id": "SNTG_26025_0188_e4bf32bf54",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250188,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_d9d8f29d3f",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250194,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_6f8f88febf",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250203,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_b44d94d435",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250204,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_7404105848",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250206,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_71e36d8b20",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250213,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_7b124a4168",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250216,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_ef6a3dd62e",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250218,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_a85404e9c2",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250219,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_a68991ab75",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250222,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_cb697231c0",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250224,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_1b1262cfdd",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250225,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_a12372a010",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250228,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_607c39ddb5",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250234,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_f7db2bc1fc",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250235,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_7f6ec122bd",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250236,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_61473eb2c3",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250238,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_f7d82c6723",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250239,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_b9c82f51ff",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250243,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_e64ec421ed",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250246,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_4a9f7aa203",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250248,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_a21c4e2344",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250252,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_eeda2e0b7e",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250255,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_a6e4857ff0",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250261,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_e5a84b0e33",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250264,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_e20e6aae30",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250266,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_9dd84bff56",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250267,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_76b0945c4c",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250268,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_086ca2b848",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250270,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNTG_26025_0188_3271ae45f3",
+      "module": "SNTG_26025_0188",
+      "id_prefix": "SNTG_26025_0188_",
+      "difficulty": 3,
+      "problem_text_md": "![](templete_SNTG_26025_0188.png)\n",
+      "ask_line_md": "이에 대한 설명으로 옳은 것만을 <보기>에서 있는 대로 고른 것은?\n\n<보기>\nㄱ. D는 X 염색체에 있다.\nㄴ. ⓐ는 0이다.\nㄷ. P에서 a, B, D를 모두 갖는 생식세포가 형성될 수 있다.\n\n① ㄱ\n② ㄷ\n③ ㄱ, ㄴ\n④ ㄴ, ㄷ\n⑤ ㄱ, ㄴ, ㄷ",
+      "answer_text_md": "3",
+      "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
+      "payload": {
+        "template_image": "templete_SNTG_26025_0188.png",
+        "table_grid": [
+          [
+            "세포",
+            "A",
+            "b",
+            "D",
+            "㉠"
+          ],
+          [
+            "(가)",
+            0,
+            1,
+            "ⓐ",
+            "ⓑ"
+          ],
+          [
+            "(나)",
+            0,
+            2,
+            0,
+            "?"
+          ],
+          [
+            "(다)",
+            0,
+            1,
+            1,
+            "ⓑ"
+          ],
+          [
+            "(라)",
+            "ⓒ",
+            2,
+            "ⓒ",
+            "?"
+          ],
+          [
+            "(마)",
+            1,
+            "ⓒ",
+            1,
+            "?"
+          ]
+        ],
+        "label_to_cell": {
+          "가": "IV",
+          "나": "III",
+          "다": "V",
+          "라": "II",
+          "마": "I"
+        },
+        "meta": {
+          "seed": 260250272,
+          "sym_map": {
+            "ⓐ": 0,
+            "ⓑ": 1,
+            "ⓒ": 2
+          },
+          "truths": {
+            "ㄱ": true,
+            "ㄴ": true,
+            "ㄷ": false
+          },
+          "option": 3,
+          "gene_positions": {
+            "A": "AUTO",
+            "B": "AUTO",
+            "D": "X"
+          },
+          "autosome_gt": {
+            "A": [
+              "A",
+              "a"
+            ],
+            "B": [
+              "b",
+              "b"
+            ]
+          },
+          "x_allele": {
+            "D": "D"
+          },
+          "col_k": "a"
+        },
+        "assets": [
+          {
+            "type": "image",
+            "name": "templete_SNTG_26025_0188.png",
+            "path": "templete_SNTG_26025_0188.png"
+          }
+        ]
+      }
+    }
+  ]
+}
