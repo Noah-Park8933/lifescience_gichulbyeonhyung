@@ -1,7 +1,7 @@
 {
-  "pack_id": "575681e0e8088479b488f2bdccddb465",
+  "pack_id": "4a20714a563c43373044a10cec4ca08c",
   "pack_name": "SNTG_26025_0188_pack_260250188",
-  "created_at": 1771428844,
+  "created_at": 1771429369,
   "config": {
     "module": "SNTG_26025_0188",
     "difficulty": 3,
@@ -11,7 +11,7 @@
   "count": 30,
   "items": [
     {
-      "id": "SNTG_26025_0188_e4bf32bf54",
+      "id": "SNTG_26025_0188_a1feac8106",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -20,7 +20,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_d9d8f29d3f",
+      "id": "SNTG_26025_0188_93ad8214d9",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -124,7 +124,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_6f8f88febf",
+      "id": "SNTG_26025_0188_b5294c0191",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -228,7 +228,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -323,7 +323,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_b44d94d435",
+      "id": "SNTG_26025_0188_b668f09f4b",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -332,7 +332,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -427,7 +427,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_7404105848",
+      "id": "SNTG_26025_0188_b54d414acc",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -436,7 +436,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -531,7 +531,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_71e36d8b20",
+      "id": "SNTG_26025_0188_7f421f4388",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -540,7 +540,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -635,7 +635,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_7b124a4168",
+      "id": "SNTG_26025_0188_2c157a184b",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -644,7 +644,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -739,7 +739,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_ef6a3dd62e",
+      "id": "SNTG_26025_0188_ad79be604a",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -748,7 +748,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -843,7 +843,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_a85404e9c2",
+      "id": "SNTG_26025_0188_00ff2f1613",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -852,7 +852,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -947,7 +947,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_a68991ab75",
+      "id": "SNTG_26025_0188_4e0727c6cc",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -956,7 +956,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1051,7 +1051,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_cb697231c0",
+      "id": "SNTG_26025_0188_51663117e1",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1060,7 +1060,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1155,7 +1155,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_1b1262cfdd",
+      "id": "SNTG_26025_0188_fc8dbfe7bc",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1164,7 +1164,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1259,7 +1259,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_a12372a010",
+      "id": "SNTG_26025_0188_cea8da5aa8",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1268,7 +1268,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1363,7 +1363,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_607c39ddb5",
+      "id": "SNTG_26025_0188_6cd783ae43",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1372,7 +1372,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1467,7 +1467,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_f7db2bc1fc",
+      "id": "SNTG_26025_0188_234f94668e",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1476,7 +1476,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1571,7 +1571,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_7f6ec122bd",
+      "id": "SNTG_26025_0188_3fac4a1409",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1580,7 +1580,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1675,7 +1675,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_61473eb2c3",
+      "id": "SNTG_26025_0188_ec6aa6e3de",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1684,7 +1684,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1779,7 +1779,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_f7d82c6723",
+      "id": "SNTG_26025_0188_0d577adfea",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1788,7 +1788,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1883,7 +1883,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_b9c82f51ff",
+      "id": "SNTG_26025_0188_3fd4d457a1",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1892,7 +1892,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -1987,7 +1987,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_e64ec421ed",
+      "id": "SNTG_26025_0188_074af40d56",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -1996,7 +1996,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2091,7 +2091,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_4a9f7aa203",
+      "id": "SNTG_26025_0188_3581fdb821",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2100,7 +2100,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2195,7 +2195,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_a21c4e2344",
+      "id": "SNTG_26025_0188_06707de829",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2204,7 +2204,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2299,7 +2299,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_eeda2e0b7e",
+      "id": "SNTG_26025_0188_55162222c9",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2308,7 +2308,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2403,7 +2403,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_a6e4857ff0",
+      "id": "SNTG_26025_0188_94b7c656e2",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2412,7 +2412,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2507,7 +2507,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_e5a84b0e33",
+      "id": "SNTG_26025_0188_bd2bb57604",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2516,7 +2516,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2611,7 +2611,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_e20e6aae30",
+      "id": "SNTG_26025_0188_6d3f46b5cb",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2620,7 +2620,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2715,7 +2715,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_9dd84bff56",
+      "id": "SNTG_26025_0188_fab7194082",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2724,7 +2724,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2819,7 +2819,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_76b0945c4c",
+      "id": "SNTG_26025_0188_9eba9f0986",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2828,7 +2828,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -2923,7 +2923,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_086ca2b848",
+      "id": "SNTG_26025_0188_07b10fc45f",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -2932,7 +2932,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
@@ -3027,7 +3027,7 @@
       }
     },
     {
-      "id": "SNTG_26025_0188_3271ae45f3",
+      "id": "SNTG_26025_0188_a489095caf",
       "module": "SNTG_26025_0188",
       "id_prefix": "SNTG_26025_0188_",
       "difficulty": 3,
@@ -3036,7 +3036,7 @@
       "answer_text_md": "3",
       "solution_md": "정답: 3\n(내부) ㄱ=True ㄴ=True ㄷ=False\nⓐⓑⓒ={'ⓐ': 0, 'ⓑ': 1, 'ⓒ': 2}",
       "payload": {
-        "template_image": "templete_SNTG_26025_0188.png",
+        "image": "templete_SNTG_26025_0188.png",
         "table_grid": [
           [
             "세포",
