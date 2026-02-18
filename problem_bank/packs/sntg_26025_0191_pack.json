@@ -1,7 +1,7 @@
 {
-  "pack_id": "35885f19a763853c1b9e2c97a2e79061",
+  "pack_id": "b43de091ffa5900f9021e1ddc6585809",
   "pack_name": "SNTG_26025_0191_pack_20260219",
-  "created_at": 1771434064,
+  "created_at": 1771434613,
   "config": {
     "module": "SNTG_26025_0191",
     "difficulty": 3,
@@ -11,7 +11,7 @@
   "count": 30,
   "items": [
     {
-      "id": "SNTG_26025_0191_61372b6056",
+      "id": "SNTG_26025_0191_5a8d913d7c",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -224,11 +224,221 @@
           "n": true,
           "d": false
         },
-        "answer_option": 3
+        "answer_option": 3,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_25f82d6aff",
+      "id": "SNTG_26025_0191_4c9d5fa55b",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -441,11 +651,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_34cfa44b3e",
+      "id": "SNTG_26025_0191_c60dffe3b4",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -658,11 +1078,221 @@
           "n": false,
           "d": false
         },
-        "answer_option": 1
+        "answer_option": 1,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_4fdd6d04f6",
+      "id": "SNTG_26025_0191_32982f89ee",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -875,11 +1505,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_e2375a334e",
+      "id": "SNTG_26025_0191_af97007ef5",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -1092,11 +1932,221 @@
           "n": true,
           "d": false
         },
-        "answer_option": 3
+        "answer_option": 3,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_e1b1238eed",
+      "id": "SNTG_26025_0191_0596efbc63",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -1309,11 +2359,221 @@
           "n": false,
           "d": false
         },
-        "answer_option": 1
+        "answer_option": 1,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_ebb9d2baac",
+      "id": "SNTG_26025_0191_df5ce7eac9",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -1526,11 +2786,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_9bc3849768",
+      "id": "SNTG_26025_0191_d2ecde85b7",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -1743,11 +3213,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_7e3878a92e",
+      "id": "SNTG_26025_0191_bf66821626",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -1960,11 +3640,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_ec32e59290",
+      "id": "SNTG_26025_0191_2ad32c519c",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -2177,11 +4067,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_add53f8afc",
+      "id": "SNTG_26025_0191_c82830548b",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -2394,11 +4494,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_a6d3b33c82",
+      "id": "SNTG_26025_0191_49b92c2bfa",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -2611,11 +4921,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_470961655a",
+      "id": "SNTG_26025_0191_6c3103f84a",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -2828,11 +5348,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_b4c7caaa96",
+      "id": "SNTG_26025_0191_436265a7ff",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -3045,11 +5775,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 0,
+              "b": 4,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_d12abd17fb",
+      "id": "SNTG_26025_0191_1c0fd133e1",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -3262,11 +6202,221 @@
           "n": true,
           "d": false
         },
-        "answer_option": 3
+        "answer_option": 3,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_f25e4db5de",
+      "id": "SNTG_26025_0191_0d92185af7",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -3479,11 +6629,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "a",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "a",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 0,
+              "a": 4,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_040f2c8b84",
+      "id": "SNTG_26025_0191_b5663a6049",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -3696,11 +7056,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_4cc5d56c05",
+      "id": "SNTG_26025_0191_2c903dba28",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -3913,11 +7483,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_7094959157",
+      "id": "SNTG_26025_0191_131fd6fe9e",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -4130,11 +7910,221 @@
           "n": true,
           "d": false
         },
-        "answer_option": 3
+        "answer_option": 3,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_afe0de13c2",
+      "id": "SNTG_26025_0191_4c68969aac",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -4347,11 +8337,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_ee3f56014d",
+      "id": "SNTG_26025_0191_7884880b58",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -4564,11 +8764,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_ad3f29f048",
+      "id": "SNTG_26025_0191_34d3143eec",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -4781,11 +9191,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 5
+        "answer_option": 5,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_5d1ec802a5",
+      "id": "SNTG_26025_0191_f889b7246a",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -4998,11 +9618,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_03160be058",
+      "id": "SNTG_26025_0191_a6be7afdfc",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -5215,11 +10045,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 2,
+              "D": 2,
+              "d": 2
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_50b893a17f",
+      "id": "SNTG_26025_0191_8d6832d17a",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -5432,11 +10472,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 5
+        "answer_option": 5,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_ac0aee4298",
+      "id": "SNTG_26025_0191_3fe54b9f65",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -5649,11 +10899,221 @@
           "n": false,
           "d": true
         },
-        "answer_option": 2
+        "answer_option": 2,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 0,
+              "b": 4,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_8b7c2a663e",
+      "id": "SNTG_26025_0191_297b359ee8",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -5866,11 +11326,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_aced5b1ee0",
+      "id": "SNTG_26025_0191_0f76aac373",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -6083,11 +11753,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "b",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 2,
+              "a": 2,
+              "B": 2,
+              "b": 2,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 0,
+              "a": 1,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_df25e5bf16",
+      "id": "SNTG_26025_0191_77713ad2a0",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -6300,11 +12180,221 @@
           "n": true,
           "d": true
         },
-        "answer_option": 4
+        "answer_option": 4,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ],
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "b",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 4,
+              "d": 0
+            },
+            "II": {
+              "A": 2,
+              "a": 0,
+              "B": 0,
+              "b": 4,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 2,
+              "d": 0
+            },
+            "IV": {
+              "A": 0,
+              "a": 0,
+              "B": 0,
+              "b": 2,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 1,
+              "d": 0
+            },
+            "VI": {
+              "A": 1,
+              "a": 0,
+              "B": 0,
+              "b": 1,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     },
     {
-      "id": "SNTG_26025_0191_0992558ea8",
+      "id": "SNTG_26025_0191_ac7a1684ba",
       "module": "SNTG_26025_0191",
       "id_prefix": "SNTG_26025_0191_",
       "difficulty": 3,
@@ -6517,7 +12607,217 @@
           "n": true,
           "d": false
         },
-        "answer_option": 3
+        "answer_option": 3,
+        "world": {
+          "parents": {
+            "P": {
+              "sex": "F",
+              "X": [
+                "A",
+                "A"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "Q": {
+              "sex": "M",
+              "X": [
+                "a"
+              ],
+              "BD_haps": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "cells": {
+            "I": {
+              "stage": "I",
+              "sex_owner": "F",
+              "branch": null,
+              "X_pack": [
+                "A",
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "D"
+                ]
+              ]
+            },
+            "II": {
+              "stage": "II",
+              "sex_owner": "M",
+              "branch": null,
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ],
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "III": {
+              "stage": "III",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "IV": {
+              "stage": "IV",
+              "sex_owner": "M",
+              "branch": "R",
+              "X_pack": [
+                "a"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "V": {
+              "stage": "V",
+              "sex_owner": "F",
+              "branch": "L",
+              "X_pack": [
+                "A"
+              ],
+              "has_Y": false,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            },
+            "VI": {
+              "stage": "VI",
+              "sex_owner": "M",
+              "branch": "L",
+              "X_pack": [],
+              "has_Y": true,
+              "BD": [
+                [
+                  "B",
+                  "d"
+                ]
+              ]
+            }
+          },
+          "full_amounts": {
+            "I": {
+              "A": 4,
+              "a": 0,
+              "B": 4,
+              "b": 0,
+              "D": 2,
+              "d": 2
+            },
+            "II": {
+              "A": 0,
+              "a": 2,
+              "B": 4,
+              "b": 0,
+              "D": 0,
+              "d": 4
+            },
+            "III": {
+              "A": 2,
+              "a": 0,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "IV": {
+              "A": 0,
+              "a": 2,
+              "B": 2,
+              "b": 0,
+              "D": 0,
+              "d": 2
+            },
+            "V": {
+              "A": 1,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            },
+            "VI": {
+              "A": 0,
+              "a": 0,
+              "B": 1,
+              "b": 0,
+              "D": 0,
+              "d": 1
+            }
+          },
+          "template_constraints": {
+            "V_from": "III",
+            "VI_not_from": "IV",
+            "III_branch": "F:L",
+            "IV_branch": "M:R",
+            "VI_branch": "M:L"
+          }
+        },
+        "image": "templete_SNTG_26025_0191.png",
+        "images": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "figure": "templete_SNTG_26025_0191.png",
+        "figures": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "assets": [
+          "templete_SNTG_26025_0191.png"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "path": "templete_SNTG_26025_0191.png"
+          }
+        ]
       }
     }
   ]
